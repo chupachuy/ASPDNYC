@@ -1,0 +1,74 @@
+﻿.ui-autocomplete {
+    cursor: default;
+    z-index: 1000;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    border-top: solid 1px #26A3C4;
+    border-bottom: solid 1px #26A3C4;
+    border-left: solid 1px #26A3C4;
+    border-right: solid 1px #26A3C4;
+    padding: 2px 0px 2px 0px;
+    width: 90%;
+    font-size: 16px;
+    position: relative;
+    float: left;
+    margin-bottom: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    background-color: #FFFFFF;
+    overflow-y: auto;
+}
+
+.ui-menu .ui-menu-item {
+    clear: left;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+    left: -16px;
+    margin: 0;
+    padding: 9px;
+    z-index: 1;
+    overflow-y: auto;
+    border-top: none;
+    border-right: none;
+    border-left: solid 1px #26A3C4;
+    border-bottom: solid 1px #CCC;
+    width: 100%;
+    font-size: 16px;
+    position: relative;
+    float: left;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    background-image: url(optionArrow_right.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-left: 15px;
+}
+
+    .ui-menu .ui-menu-item a {
+        color: black;
+    }
+
+        .ui-menu .ui-menu-item a:hover, .ui-state-focus:hover {
+            color: #26A3C4;
+            cursor: pointer;
+        }
+
+
+.labProvRow {
+    color: #969696 !important;
+    font-size: 12px;
+    line-height: 12px !important;
+}
+
+
+
+.labProv {
+    color: #26A3C4 !important;
+    padding-left: 20px;
+    background-image: url(DispEnLab_ICO.png);
+    background-position: 7px 4px;
+    background-repeat: no-repeat;
+}

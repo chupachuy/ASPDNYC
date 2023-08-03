@@ -1,0 +1,1 @@
+Datos para envio Datos envio:166591AError catch (Error:499Conversion failed when converting the varchar value 'The current transaction cannot be committed and cannot support operations that write to the log file. Roll back the transaction.' to data type int.)

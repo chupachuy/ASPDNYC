@@ -1,0 +1,47 @@
+﻿
+<div id="modalPreguntas" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div id="popPregunta" class="modal-body text-center">
+                <h2>Por último, contéstanos un par de preguntas</h2>
+                <p>¿Conoces los Duraznos, Nectarinas y Ciruelas de California, EUA? Son las que tienen una etiqueta.</p>
+
+                <button type="button" class="btn" onclick="moverFlujoPopUpPreguntas(0, 0);">Sí, los conozco</button>
+                <button type="button" class="btn" onclick="moverFlujoPopUpPreguntas(0, 1);">No los conozco</button>
+            </div>
+            <div id="popProbado" class="modal-body text-center" style="display:none;">
+                <p>Sobre los Duraznos, Nectarinas y Ciruelas de California, EUA. Son las que tienen una etiqueta.</p>
+                <h2>¿Los has probado como parte de un platillo preparado?</h2>
+
+                <button type="button" class="btn" onclick="moverFlujoPopUpPreguntas(1, 0);">Sí</button>
+                <button type="button" class="btn" onclick="moverFlujoPopUpPreguntas(1, 1);">No</button>
+            </div>
+            <div id="popTemporada" class="modal-body text-center" style="display:none;">
+                <p>Sobre los Duraznos, Nectarinas y Ciruelas de California, EUA. Son las que tienen una etiqueta.</p>
+                <h2>¿Sabes cuál es su temporada?</h2>
+
+                <button type="button" class="btn" onclick="moverFlujoPopUpPreguntas(2, 0);">Sí</button>
+                <button type="button" class="btn" onclick="moverFlujoPopUpPreguntas(2, 1);">No</button>
+            </div>
+            <div id="popCompras" class="modal-body text-center" style="display:none;">
+                <p>Sobre los Duraznos, Nectarinas y Ciruelas de California, EUA. Son las que tienen una etiqueta.</p>
+                <h2>¿Los has comprado?</h2>
+
+                <button type="button" class="btn" onclick="moverFlujoPopUpPreguntas(3, 0);">Nunca</button>
+                <button type="button" class="btn" onclick="moverFlujoPopUpPreguntas(3, 1);">Menos de una vez al mes</button>
+                <button type="button" class="btn" onclick="moverFlujoPopUpPreguntas(3, 2);">Al menos una vez al mes</button>
+                <button type="button" class="btn" onclick="moverFlujoPopUpPreguntas(3, 3);">Dos o más veces al mes</button>
+            </div>
+            <div id="popImportados" class="modal-body text-center" style="display:none;">
+                <h2>¿Prefieres duraznos, nectarinas o ciruelas importadas de otro país?</h2>
+
+                <button type="button" class="btn" onclick="moverFlujoPopUpPreguntas(4, 0);">Sí</button>
+                <button type="button" class="btn" onclick="moverFlujoPopUpPreguntas(4, 1);">No</button>
+            </div>
+            <div id="popGracias" class="modal-body text-center" style="display:none;">
+                <h3>Gracias por contestar</h3>
+                <h1>¡Disfruta del recetario 🍑!</h1>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title type="text">AgenteTop news</title>
+    <subtitle type="html">
+        AgenteTop - Comparador de Seguros de Gastos Médicos
+    </subtitle>
+    <updated>@DateTime.Now.ToUniversalTime().ToString("yyyy-MM-dd'T'HH:mm:ssZ")</updated>
+    @*<id>urn:uuid:@Model</id>*@
+    <id>urn:uuid:@Guid.NewGuid()</id>
+    <link rel="alternate" type="text/html" hreflang="en" href="https://www.AgenteTop.com" />
+    @{
+        //string feed = AgenteTop.Helpers.PathHelper.GetCurrentDomain(Request) + "Content/rss/feed_" + DateTime.Now.ToString("yyyy-MM-dd") + ".atom";
+        string feed = goSaltoDigital.Helpers.PathHelper.GetCurrentDomain(Request) + "feed/rss";
+    }
+    <link rel="self" type="application/atom+xml" href="@feed" />
+    <rights>Copyright (c) 2018, AgenteTop</rights>
+    <entry>
+        <title>AgenteTop - Comparador de Seguros de Gastos Médicos</title>
+        <link rel="alternate" type="text/html" href="https://www.AgenteTop.com/feed/rss" />
+        @*<link rel="enclosure" type="audio/mpeg" length="1337" href="http://example.org/audio/audio.mp3" />*@
+        <id>urn:uuid:@Guid.NewGuid()</id>
+        <updated>@DateTime.Now.ToUniversalTime().ToString("yyyy-MM-dd'T'HH:mm:ssZ")</updated>
+        <published>@DateTime.Now.ToUniversalTime().ToString("yyyy-MM-dd'T'HH:mm:ssZ")</published>
+        <author>
+            <name>Julio Lugo</name>
+            <uri>https://www.AgenteTop.com/</uri>
+            <email>contacto@AgenteTop.com</email>
+        </author>
+        <contributor>
+            <name>Luis López Malo</name>
+        </contributor>
+        <content type="xhtml" xml:lang="es" xml:base="https://www.AgenteTop.com/">
+            <div xmlns="http://www.w3.org/1999/xhtml">
+                <p><i>AgenteTop RSS Feed</i></p>
+            </div>
+        </content>
+    </entry>
+</feed>

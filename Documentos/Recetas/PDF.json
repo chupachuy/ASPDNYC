@@ -1,0 +1,452 @@
+{
+  "RECETAS_PDF": [
+    {
+      "Id": "56",
+      "Titulo": "Recetario Carozos de California por la Chef Karuy Zazueta",
+      "Fecha": "Añadido el 11/08/2021",
+      "Imagen": "Pdf/recetario/IMG55_Recetario Carozos de California por la Chef Karuy Zazueta.png",
+      "UrlPDF": "Pdf/recetario/55_Recetario Carozos de California por la Chef Karuy Zazueta_compressed.pdf",
+      "NombrePDF": "Recetario Carozos de California por la Chef Karuy Zazueta_compressed.pdf"
+    },
+    {
+      "Id": "55",
+      "Titulo": "Beneficios de los Duraznos, Nectarinas y Ciruelas de California 2",
+      "Fecha": "Añadido el 11/08/2021",
+      "Imagen": "Pdf/beneficios/IMG56_Beneficios de los Carozos de California 2.png",
+      "UrlPDF": "Pdf/beneficios/56_Beneficios de los Carozos de California 2_compressed.pdf",
+      "NombrePDF": "Beneficios de los Carozos de California 2_compressed.pdf"
+    },
+    {
+      "Id": "54",
+      "Titulo": "Scones con duraznos de California",
+      "Fecha": "Añadido el 29/07/2021",
+      "Imagen": "Pdf/52/IMG54_Scones con duraznos de California.png",
+      "UrlPDF": "Pdf/52/54_Scones con duraznos de California_compressed.pdf",
+      "NombrePDF": "Scones con duraznos de California_compressed.pdf"
+    },
+    {
+      "Id": "53",
+      "Titulo": "Carpaccio de betabel con duraznos de California y vinagreta de naranja",
+      "Fecha": "Añadido el 29/07/2021",
+      "Imagen": "Pdf/51/IMG53_Carpaccio de betabel con duraznos de california y vinagreta de naranja.png",
+      "UrlPDF": "Pdf/51/53_Carpaccio de betabel con duraznos de california y vinagreta de naranja_compressed.pdf",
+      "NombrePDF": "Carpaccio de betabel con duraznos de california y vinagreta de naranja_compressed.pdf"
+    },
+    {
+      "Id": "52",
+      "Titulo": "Toast de requesón con jamón serrano, duraznos de California y reducción de balsámico",
+      "Fecha": "Añadido el 29/07/2021",
+      "Imagen": "Pdf/50/IMG52_Toast de requesón con jamón serrano duraznos de california y reduccion de balsamico.png",
+      "UrlPDF": "Pdf/50/52_Toast de requesón con jamón serrano duraznos de california y reduccion de balsamico_compressed.pdf",
+      "NombrePDF": "Toast de requesón con jamón serrano duraznos de california y reduccion de balsamico_compressed.pdf"
+    },
+    {
+      "Id": "51",
+      "Titulo": "Alitas de pollo con salsa BBQ de nectarinas de California con chile habanero",
+      "Fecha": "Añadido el 29/07/2021",
+      "Imagen": "Pdf/49/IMG51_Alitas de pollo con salsa BBQ de nectarinas de California con chile habanero.png",
+      "UrlPDF": "Pdf/49/51_Alitas de pollo con salsa BBQ de nectarinas de California con chile habanero_compressed.pdf",
+      "NombrePDF": "Alitas de pollo con salsa BBQ de nectarinas de California con chile habanero_compressed.pdf"
+    },
+    {
+      "Id": "50",
+      "Titulo": "Caserola de pan francés con duraznos de California",
+      "Fecha": "Añadido el 29/07/2021",
+      "Imagen": "Pdf/48/IMG50_Caserola de pan frances con duraznos de Califrnia.png",
+      "UrlPDF": "Pdf/48/50_Caserola de pan frances con duraznos de Califrnia_compressed.pdf",
+      "NombrePDF": "Caserola de pan frances con duraznos de Califrnia_compressed.pdf"
+    },
+    {
+      "Id": "49",
+      "Titulo": "Pollo en salsa de chipotle/teriyaki con duraznos de California",
+      "Fecha": "Añadido el 29/07/2021",
+      "Imagen": "Pdf/47/IMG49_Pollo en salsa de chipotle-teriyaki con duraznos de California.png",
+      "UrlPDF": "Pdf/47/49_Pollo en salsa de chipotle-teriyaki con duraznos de California_compressed.pdf",
+      "NombrePDF": "Pollo en salsa de chipotle-teriyaki con duraznos de California_compressed.pdf"
+    },
+    {
+      "Id": "48",
+      "Titulo": "Galette de nectarinas de California y fresas",
+      "Fecha": "Añadido el 29/07/2021",
+      "Imagen": "Pdf/46/IMG48_Galette de nectarinas de California y fresa.png",
+      "UrlPDF": "Pdf/46/48_Galette de nectarinas de California y fresa_compressed.pdf",
+      "NombrePDF": "Galette de nectarinas de California y fresa_compressed.pdf"
+    },
+    {
+      "Id": "47",
+      "Titulo": "Camarones empanizados con coco y salsa picosa de duraznos de California",
+      "Fecha": "Añadido el 29/07/2021",
+      "Imagen": "Pdf/45/IMG47_Camarones empanizados con coco y salsa picosa de duraznos de california.png",
+      "UrlPDF": "Pdf/45/47_Camarones empanizados con coco y salsa picosa de duraznos de california_compressed.pdf",
+      "NombrePDF": "Camarones empanizados con coco y salsa picosa de duraznos de california_compressed.pdf"
+    },
+    {
+      "Id": "46",
+      "Titulo": "Salmón en salsa de ciruelas de California con puré de papa",
+      "Fecha": "Añadido el 29/07/2021",
+      "Imagen": "Pdf/44/IMG46_Salmon en salsa de ciruelas de California con puré de papa.png",
+      "UrlPDF": "Pdf/44/46_Salmon en salsa de ciruelas de California con puré de papa_compressed.pdf",
+      "NombrePDF": "Salmon en salsa de ciruelas de California con puré de papa_compressed.pdf"
+    },
+    {
+      "Id": "45",
+      "Titulo": "Fluffy Pancakes / Hotcakes con salsa de duraznos de California",
+      "Fecha": "Añadido el 29/07/2021",
+      "Imagen": "Pdf/43/IMG45_Fluffy Pancakes -Hotcakces con salsa de duraznos de California.png",
+      "UrlPDF": "Pdf/43/45_Fluffy Pancakes -Hotcakces con salsa de duraznos de California_compressed.pdf",
+      "NombrePDF": "Fluffy Pancakes -Hotcakces con salsa de duraznos de California_compressed.pdf"
+    },
+    {
+      "Id": "44",
+      "Titulo": "Ensalada con pechuga de pollo a la plancha y nectarinas de California",
+      "Fecha": "Añadido el 29/07/2021",
+      "Imagen": "Pdf/42/IMG44_Ensalada con pechuga de pollo a la plancha y nectarinas de California.png",
+      "UrlPDF": "Pdf/42/44_Ensalada con pechuga de pollo a la plancha y nectarinas de California_compressed.pdf",
+      "NombrePDF": "Ensalada con pechuga de pollo a la plancha y nectarinas de California_compressed.pdf"
+    },
+    {
+      "Id": "43",
+      "Titulo": "Crumble de Duraznos de California",
+      "Fecha": "Añadido el 29/07/2021",
+      "Imagen": "Pdf/41/IMG43_Crumble-de-Duraznos-de-California.png",
+      "UrlPDF": "Pdf/41/43_Crumble-de-Duraznos-de-California_compressed.pdf",
+      "NombrePDF": "Crumble-de-Duraznos-de-California_compressed.pdf"
+    },
+    {
+      "Id": "42",
+      "Titulo": "Raita de duraznos de California y pepino",
+      "Fecha": "Añadido el 14/07/2021",
+      "Imagen": "Pdf/40/IMGs_Calif_Helena_R40_90x90px_72dpi_sRGB.jpg",
+      "UrlPDF": "Pdf/40/CA_Rcts_2019_Receta_40_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_40_sRGB.pdf"
+    },
+    {
+      "Id": "41",
+      "Titulo": "Bebida con duazno de California y moras",
+      "Fecha": "Añadido el 14/07/2021",
+      "Imagen": "Pdf/39/IMGs_Calif_Helena_R39_90x90px_72dpi_sRGB.jpg",
+      "UrlPDF": "Pdf/39/CA_Rcts_2019_Receta_39_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_39_sRGB.pdf"
+    },
+    {
+      "Id": "40",
+      "Titulo": "Nectarinas de California sorpresa",
+      "Fecha": "Añadido el 14/07/2021",
+      "Imagen": "Pdf/38/IMGs_Calif_Helena_R38_90x90px_72dpi_sRGB.jpg",
+      "UrlPDF": "Pdf/38/CA_Rcts_2019_Receta_38_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_38_sRGB.pdf"
+    },
+    {
+      "Id": "39",
+      "Titulo": "Ensalada de aguacate, nectarinas de California y berros",
+      "Fecha": "Añadido el 14/07/2021",
+      "Imagen": "Pdf/37/IMGs_Calif_Helena_R37_90x90px_72dpi_sRGB.jpg",
+      "UrlPDF": "Pdf/37/CA_Rcts_2019_Receta_37_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_37_sRGB.pdf"
+    },
+    {
+      "Id": "38",
+      "Titulo": "Pan francés con duraznos de California",
+      "Fecha": "Añadido el 14/07/2021",
+      "Imagen": "Pdf/36/IMGs_Calif_Helena_R36_90x90px_72dpi_sRGB.jpg",
+      "UrlPDF": "Pdf/36/CA_Rcts_2019_Receta_36_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_36_sRGB.pdf"
+    },
+    {
+      "Id": "37",
+      "Titulo": "Arroz con leche, duraznos de California y chocolate blanco",
+      "Fecha": "Añadido el 14/07/2021",
+      "Imagen": "Pdf/35/IMGs_Calif_Helena_R35_90x90px_72dpi_sRGB.jpg",
+      "UrlPDF": "Pdf/35/CA_Rcts_2019_Receta_35_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_35_sRGB.pdf"
+    },
+    {
+      "Id": "36",
+      "Titulo": "Nectarinas y duraznos de California en almíbar",
+      "Fecha": "Añadido el 14/07/2021",
+      "Imagen": "Pdf/34/IMGs_Calif_Helena_R34_90x90px_72dpi_sRGB.jpg",
+      "UrlPDF": "Pdf/34/CA_Rcts_2019_Receta_34_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_34_sRGB.pdf"
+    },
+    {
+      "Id": "35",
+      "Titulo": "Panquecitos con nectarinas de California",
+      "Fecha": "Añadido el 14/07/2021",
+      "Imagen": "Pdf/33/IMGs_Calif_Helena_R33_90x90px_72dpi_sRGB.jpg",
+      "UrlPDF": "Pdf/33/CA_Rcts_2019_Receta_33_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_33_sRGB.pdf"
+    },
+    {
+      "Id": "34",
+      "Titulo": "Duraznos de California al horno con mascabado",
+      "Fecha": "Añadido el 14/07/2021",
+      "Imagen": "Pdf/32/IMGs_Calif_Helena_R32_90x90px_72dpi_sRGB.jpg",
+      "UrlPDF": "Pdf/32/CA_Rcts_2019_Receta_32_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_32_sRGB.pdf"
+    },
+    {
+      "Id": "33",
+      "Titulo": "Duraznos de California rellenos de queso de cabra",
+      "Fecha": "Añadido el 14/07/2021",
+      "Imagen": "Pdf/31/IMGs_Calif_Helena_R31_90x90px_72dpi_sRGB.jpg",
+      "UrlPDF": "Pdf/31/CA_Rcts_2019_Receta_31_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_31_sRGB.pdf"
+    },
+    {
+      "Id": "32",
+      "Titulo": "Emparedados con duraznos de California y Nutella",
+      "Fecha": "Añadido el 14/07/2021",
+      "Imagen": "Pdf/30/IMGs_Calif_Helena_R30_90x90px_72dpi_sRGB.jpg",
+      "UrlPDF": "Pdf/30/CA_Rcts_2019_Receta_30_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_30_sRGB.pdf"
+    },
+    {
+      "Id": "31",
+      "Titulo": "Duraznos de California al vino tinto especiados",
+      "Fecha": "Añadido el 14/07/2021",
+      "Imagen": "Pdf/29/IMGs_Calif_Helena_R29_90x90px_72dpi_sRGB.jpg",
+      "UrlPDF": "Pdf/29/CA_Rcts_2019_Receta_29_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_29_sRGB.pdf"
+    },
+    {
+      "Id": "30",
+      "Titulo": "Mermelada de ciruelas de California, nueces y especias.",
+      "Fecha": "Añadido el 14/07/2021",
+      "Imagen": "Pdf/28/IMGs_Calif_Helena_R28_90x90px_72dpi_sRGB.jpg",
+      "UrlPDF": "Pdf/28/CA_Rcts_2019_Receta_28_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_28_sRGB.pdf"
+    },
+    {
+      "Id": "29",
+      "Titulo": "Ensalada estilo César con ciruelas de California",
+      "Fecha": "Añadido el 14/07/2021",
+      "Imagen": "Pdf/27/IMGs_Calif_Helena_R27_90x90px_72dpi_sRGB.jpg",
+      "UrlPDF": "Pdf/27/CA_Rcts_2019_Receta_27_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_27_sRGB.pdf"
+    },
+    {
+      "Id": "28",
+      "Titulo": "Bebida de durazno de California, miel y cardamomo",
+      "Fecha": "Añadido el 14/07/2021",
+      "Imagen": "Pdf/26/IMGs_Calif_Helena_R26_90x90px_72dpi_sRGB.jpg",
+      "UrlPDF": "Pdf/26/CA_Rcts_2019_Receta_26_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_26_sRGB.pdf"
+    },
+    {
+      "Id": "27",
+      "Titulo": "Ensalada de espinacas con nectarinas de California",
+      "Fecha": "Añadido el 14/07/2021",
+      "Imagen": "Pdf/dummy.jpg",
+      "UrlPDF": "Pdf/25/CA_Rcts_2019_Receta_25_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_25_sRGB.pdf"
+    },
+    {
+      "Id": "26",
+      "Titulo": "Mousse de nectarinas de California con amaranto",
+      "Fecha": "Añadido el 14/07/2021",
+      "Imagen": "Pdf/24/IMGs_Calif_Helena_R24_90x90px_72dpi_sRGB.jpg",
+      "UrlPDF": "Pdf/24/CA_Rcts_2019_Receta_24_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_24_sRGB.pdf"
+    },
+    {
+      "Id": "25",
+      "Titulo": "Chiles rellenos con duraznos, nectarinas y ciruelas de California",
+      "Fecha": "Añadido el 14/07/2021",
+      "Imagen": "Pdf/23/IMGs_Calif_Helena_R23_90x90px_72dpi_sRGB.jpg",
+      "UrlPDF": "Pdf/23/CA_Rcts_2019_Receta_23_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_23_sRGB.pdf"
+    },
+    {
+      "Id": "24",
+      "Titulo": "Pastel de requesón con ciruelas de California",
+      "Fecha": "Añadido el 14/07/2021",
+      "Imagen": "Pdf/22/IMGs_Calif_Helena_R22_90x90px_72dpi_sRGB.jpg",
+      "UrlPDF": "Pdf/22/CA_Rcts_2019_Receta_22_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_22_sRGB.pdf"
+    },
+    {
+      "Id": "23",
+      "Titulo": "Guacamole afrutado con durazno y ciruena de California",
+      "Fecha": "Añadido el 14/07/2021",
+      "Imagen": "Pdf/21/IMGs_Calif_Helena_R21_90x90px_72dpi_sRGB.jpg",
+      "UrlPDF": "Pdf/21/CA_Rcts_2019_Receta_21_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_21_sRGB.pdf"
+    },
+    {
+      "Id": "22",
+      "Titulo": "Mousse de miel con nectarnias y ciruelas de California",
+      "Fecha": "Añadido el 14/07/2021",
+      "Imagen": "Pdf/20/IMGs_Calif_Helena_R20_90x90px_72dpi_sRGB.jpg",
+      "UrlPDF": "Pdf/20/CA_Rcts_2019_Receta_20_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_20_sRGB.pdf"
+    },
+    {
+      "Id": "21",
+      "Titulo": "Requesón con miel y nectarinas de California",
+      "Fecha": "Añadido el 14/07/2021",
+      "Imagen": "Pdf/19/IMGs_Calif_Helena_R19_90x90px_72dpi_sRGB.jpg",
+      "UrlPDF": "Pdf/19/CA_Rcts_2019_Receta_19_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_19_sRGB.pdf"
+    },
+    {
+      "Id": "20",
+      "Titulo": "Nectarinas de California balsámicas con arúgula",
+      "Fecha": "Añadido el 14/07/2021",
+      "Imagen": "Pdf/18/IMGs_Calif_Helena_R18_90x90px_72dpi_sRGB.jpg",
+      "UrlPDF": "Pdf/18/CA_Rcts_2019_Receta_18_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_18_sRGB.pdf"
+    },
+    {
+      "Id": "19",
+      "Titulo": "Sorbete de nectarinas de California",
+      "Fecha": "Añadido el 14/07/2021",
+      "Imagen": "Pdf/17/IMGs_Calif_Helena_R17_90x90px_72dpi_sRGB.jpg",
+      "UrlPDF": "Pdf/17/CA_Rcts_2019_Receta_17_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_17_sRGB.pdf"
+    },
+    {
+      "Id": "18",
+      "Titulo": "Mousse de chocolate blanco con ciruela de California",
+      "Fecha": "Añadido el 14/07/2021",
+      "Imagen": "Pdf/dummy.jpg",
+      "UrlPDF": "Pdf/16/CA_Rcts_2019_Receta_16_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_16_sRGB.pdf"
+    },
+    {
+      "Id": "17",
+      "Titulo": "Licuado energético con durazno de California",
+      "Fecha": "Añadido el 14/07/2021",
+      "Imagen": "Pdf/15/IMGs_Calif_Helena_R15_90x90px_72dpi_sRGB.jpg",
+      "UrlPDF": "Pdf/15/CA_Rcts_2019_Receta_15_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_15_sRGB.pdf"
+    },
+    {
+      "Id": "16",
+      "Titulo": "Pay de queso con duraznos de California",
+      "Fecha": "Añadido el 14/07/2021",
+      "Imagen": "Pdf/14/IMGs_Calif_Helena_R14_90x90px_72dpi_sRGB.jpg",
+      "UrlPDF": "Pdf/14/CA_Rcts_2019_Receta_14_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_14_sRGB.pdf"
+    },
+    {
+      "Id": "15",
+      "Titulo": "Sangría blanca con duraznos de California",
+      "Fecha": "Añadido el 14/07/2021",
+      "Imagen": "Pdf/dummy.jpg",
+      "UrlPDF": "Pdf/13/CA_Rcts_2019_Receta_13_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_13_sRGB.pdf"
+    },
+    {
+      "Id": "14",
+      "Titulo": "Clafouti de nectarinas y ciruelas de California",
+      "Fecha": "Añadido el 14/07/2021",
+      "Imagen": "Pdf/12/IMGs_Calif_Helena_R12_90x90px_72dpi_sRGB.jpg",
+      "UrlPDF": "Pdf/12/CA_Rcts_2019_Receta_12_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_12_sRGB.pdf"
+    },
+    {
+      "Id": "13",
+      "Titulo": "Ensalada de camarones con duraznos de California",
+      "Fecha": "Añadido el 14/07/2021",
+      "Imagen": "Pdf/11/IMGs_Calif_Helena_R11_90x90px_72dpi_sRGB.jpg",
+      "UrlPDF": "Pdf/11/CA_Rcts_2019_Receta_11_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_11_sRGB.pdf"
+    },
+    {
+      "Id": "12",
+      "Titulo": "Ensalada de nectarina de California, pepino y jícama",
+      "Fecha": "Añadido el 14/07/2021",
+      "Imagen": "Pdf/10/IMGs_Calif_Helena_R10_90x90px_72dpi_sRGB.jpg",
+      "UrlPDF": "Pdf/10/CA_Rcts_2019_Receta_10_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_10_sRGB.pdf"
+    },
+    {
+      "Id": "11",
+      "Titulo": "Cebiche de huachinango con ciruelas de California",
+      "Fecha": "Añadido el 14/07/2021",
+      "Imagen": "Pdf/9/IMGs_Calif_Helena_R09_90x90px_72dpi_sRGB.jpg",
+      "UrlPDF": "Pdf/9/CA_Rcts_2019_Receta_09_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_09_sRGB.pdf"
+    },
+    {
+      "Id": "10",
+      "Titulo": "Brochetas de pollo con salsa de ciruela de California",
+      "Fecha": "Añadido el 14/07/2021",
+      "Imagen": "Pdf/8/IMGs_Calif_Helena_R08_90x90px_72dpi_sRGB.jpg",
+      "UrlPDF": "Pdf/8/CA_Rcts_2019_Receta_08_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_08_sRGB.pdf"
+    },
+    {
+      "Id": "9",
+      "Titulo": "Nectarinas de California asadas con jamón serrano",
+      "Fecha": "Añadido el 14/07/2021",
+      "Imagen": "Pdf/7/IMGs_Calif_Helena_R07_90x90px_72dpi_sRGB.jpg",
+      "UrlPDF": "Pdf/7/CA_Rcts_2019_Receta_07_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_07_sRGB.pdf"
+    },
+    {
+      "Id": "8",
+      "Titulo": "Gelatina de durazno de California y yogurt",
+      "Fecha": "Añadido el 10/07/2021",
+      "Imagen": "Pdf/6/IMGs_Calif_Helena_R06_90x90px_72dpi_sRGB.jpg",
+      "UrlPDF": "Pdf/6/CA_Rcts_2019_Receta_06_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_06_sRGB.pdf"
+    },
+    {
+      "Id": "7",
+      "Titulo": "Ensalada de duraznos de California y jitomate con albahaca",
+      "Fecha": "Añadido el 10/07/2021",
+      "Imagen": "Pdf/5/IMGs_Calif_Helena_R05_90x90px_72dpi_sRGB.jpg",
+      "UrlPDF": "Pdf/5/CA_Rcts_2019_Receta_05_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_05_sRGB.pdf"
+    },
+    {
+      "Id": "6",
+      "Titulo": "Emparedado de queso asado con ciruela de california",
+      "Fecha": "Añadido el 10/07/2021",
+      "Imagen": "Pdf/4/receta-4.jpg",
+      "UrlPDF": "Pdf/4/CA_Rcts_2019_Receta_04_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_04_sRGB.pdf"
+    },
+    {
+      "Id": "5",
+      "Titulo": "Salmón con nectarinas de California al tomillo",
+      "Fecha": "Añadido el 10/07/2021",
+      "Imagen": "Pdf/3/IMGs_Calif_Helena_R03_90x90px_72dpi_sRGB.jpg",
+      "UrlPDF": "Pdf/3/CA_Rcts_2019_Receta_03_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_03_sRGB.pdf"
+    },
+    {
+      "Id": "4",
+      "Titulo": "Ensalada de durazno, nectarina y ciruela de California con granola",
+      "Fecha": "Añadido el 10/07/2021",
+      "Imagen": "Pdf/2/IMGs_Calif_Helena_R02_90x90px_72dpi_sRGB.jpg",
+      "UrlPDF": "Pdf/2/CA_Rcts_2019_Receta_02_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_02_sRGB.pdf"
+    },
+    {
+      "Id": "3",
+      "Titulo": "Brochetas de pollo con salsa pico de pato de California",
+      "Fecha": "Añadido el 10/07/2021",
+      "Imagen": "Pdf/1/IMGs_Calif_Helena_R01_90x90px_72dpi_sRGB.jpg",
+      "UrlPDF": "Pdf/1/CA_Rcts_2019_Receta_01_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Receta_01_sRGB.pdf"
+    },
+    {
+      "Id": "2",
+      "Titulo": "Recetario Carozos de California por la Chef Helena Hernández",
+      "Fecha": "Añadido el 10/07/2021",
+      "Imagen": "Pdf/recetario/Recetario.jpg",
+      "UrlPDF": "Pdf/recetario/CA_Rcts_2019_Portada_00_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Portada_00_sRGB.pdf"
+    },
+    {
+      "Id": "1",
+      "Titulo": "Beneficios de los Duraznos, Nectarinas y Ciruelas de California 1",
+      "Fecha": "Añadido el 10/07/2021",
+      "Imagen": "Pdf/beneficios/Beneficios.jpg",
+      "UrlPDF": "Pdf/beneficios/CA_Rcts_2019_Beneficios_00_sRGB.pdf",
+      "NombrePDF": "CA_Rcts_2019_Beneficios_00_sRGB.pdf"
+    }
+  ]
+}

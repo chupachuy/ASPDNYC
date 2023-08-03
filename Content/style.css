@@ -1,0 +1,3316 @@
+/*FUELTES*/
+
+.ukAnalytics {
+}
+
+@font-face {
+    font-family: 'Glober';
+    src: url('../Content/fonts/GloberBold.otf');
+}
+@font-face
+{
+    font-family: 'GloberRegular';
+    src: url('../Content/fonts/GloberRegular.otf');
+}
+@font-face
+{
+    font-family: 'GloberSemi';
+    src: url('../Content/fonts/GloberSemiBold.otf');
+}
+
+input{
+    color:black;
+}
+.modal-header {
+    border-bottom: 0px solid #e5e5e5 !important;
+    margin-bottom: 10px;
+}
+.btn:focus {
+    outline: none;
+    color: black;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: white;
+    background-color: transparent;
+}
+
+.sendCorreo {
+    /*float: initial;*/
+    height: 100px;
+    width: 100%;
+    background: #86E7FF;
+    -webkit-mask: url(img/checked.svg) no-repeat;
+    background-position: center top;
+    margin-bottom: -50px;
+    margin-top: -50px;
+    margin-left: 45%;
+}
+.line {
+    float: left;
+    box-sizing: border-box;
+    height: 1px;
+    width: 80%;
+    border: 0.8px solid #979797;
+    background-position: center top;
+    margin-top: 30px;
+    margin-bottom: 38px;
+    margin-left: 10%;
+}
+.title2Modal {
+    color: #F10D5E;
+    font-family: Glober;
+    font-size: 23.32px;
+    font-weight: bold;
+    line-height: 34px;
+    text-align: center;
+}
+.modalcontainer h2{
+    margin-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 30px;
+}
+
+.btnModal {
+    background-color: transparent;
+    height: 42px;
+    border: 2.5px solid #F10D5E;
+    border-radius: 5.25px;
+    color: #3B3B3B;
+    font-family: GloberRegular;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 54px;
+}
+
+.container {
+    width: auto !important;
+    overflow-x: hidden !important;
+}
+.black{
+    background:transparent;
+}
+.blue{
+    background:white;
+    box-shadow: 0 3px 15px 0 rgba(0,0,0,0.5);
+}
+.img-responsive {
+    width:1200px !important;
+    height:450px !important;
+}
+
+.row {background-color: #f5f5f5}
+/*NAVBAR*/
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover.navbar-default .navbar-nav > li > a:hover {
+    color: white;
+    background-color: transparent;
+}
+
+.nav_logo {
+    margin-left: 15px;
+    padding-bottom: 6px;
+    height: 36px;
+    width: 120px;
+    background-image: url(../Content/img/logo-AgenteTop-w.svg);
+    background-repeat: no-repeat;
+}
+.nav_font_Menu{
+    margin-top: 5px;
+    color: #3B3B3B;
+    font-family: Glober;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    margin-right: 0px;
+}
+.navSeparacion {
+    margin-left: 10px;
+}
+.nav_font_Menu2{
+    margin-top: -7px;
+    color: #3B3B3B;
+    font-family: Glober;
+    font-size: 13px;
+    text-align: center;
+}
+.nav_boton {
+    margin-top: 8px;
+    margin-right: 69px;
+    height: 35px;
+    width: 160px;
+    border: 2px solid #F10D5E;
+    border-radius: 5px;
+}
+
+/*HEADER*/
+.mask {
+    width: 100%;
+    height: 450px;
+    /*opacity: 0.37;
+    background-color: #093550;*/
+}
+.bg {
+    width: 100%;
+    height: 450px;
+    left:0;
+    top: 0;
+}
+.img1 {
+    background: url(../Content/img/banner_background_optimizado.jpg) center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+}
+.header_btn_menu {
+    margin-top: 25px;
+    height: 50px;
+    width: 250px;
+    border-radius: 6.11px;
+    background: #F10D5E ;
+    opacity: 0.85;
+}
+.header_btn_menu:hover{
+    margin-top: 25px;
+    height: 50px;
+    width: 250px;
+    border-radius: 6.11px;
+    background: #F10D5E ;
+    opacity:1;
+}
+.header_title1 {
+    margin-top: 190px;
+    margin-bottom: -15px;
+    width: 100%;
+    color: #FFFFFF;
+    font-family: Glober;
+    font-size: 58px;
+    line-height: 83px;
+    text-align: center;
+    text-shadow: 4px 4px 5px #000000 ;
+}
+.header_title2 {
+    margin-top: 0px;
+    margin-bottom: -15px;
+    color: #FFFFFF;
+    font-family: GloberRegular;
+    font-size: 52px;
+    line-height: 76px;
+    text-align: center;
+    text-shadow: 4px 4px 5px #000000 !important;
+}
+.header_title3 {
+    padding-top: 10px;
+    color: #FFFFFF!important;
+    font-family: GloberRegular;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 35px;
+    text-align: center;
+}
+
+/*ANCLA I*/
+.anclaI_container {
+    width: 100%;
+    background-color: #F6F6F6;
+    box-shadow: 0 -3px 15px 0 rgba(0,0,0,0.33);
+}
+.anclaI_icon1 {
+    margin-top: 110px;
+    margin-bottom: 5px;
+    height: 100px;
+    width: 256px;
+}
+.anclaI_icon2 {
+    margin-top: 50px;
+    margin-bottom: 5px;
+    height: 160px;
+    width: 100%;
+}
+.anclaI_icon3 {
+    margin-top: 50px;
+    margin-bottom: 5px;
+    height: 160px;
+    width: 100%;
+}
+.anclaI_title1 {
+    color: #F10D5E;
+    font-family: Glober;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+}
+.anclaI_title2 {
+    padding-right: 40px;
+    padding-left: 40px;
+    color: #5C5F60;
+    font-family: GloberRegular;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 29px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+/*AgenteTop*/
+
+.anclaIV_container{
+    width: 100%;
+    background-color: #E8EDEF;
+    height: auto;
+    padding-bottom: 80px;
+}
+
+.flecha {
+    width:15%;
+    margin-top: 25%;
+}
+
+.flecha2 {display: none;}
+
+.mockup {
+    width: 85%;
+}
+
+.flecha, .mockup {
+    float: right;
+}
+
+.seccion_logo {
+    height: 100px;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.justify {
+    text-align: left;
+} 
+
+.hide {
+    display: inline;
+}
+
+/*Seccion AgenteTop*/
+
+.anclaIV_container {
+    width: 100%;
+    background-color: #E8EDEF;
+    height: auto;
+    padding-bottom: 80px;
+}
+
+    .anclaIV_container .row {
+        background-color: #E8EDEF;
+    }
+
+.devices {
+    background-image: url(../Content/img/devices1.png);
+}
+
+
+.devices {
+    width: 100%;
+    height: 400px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.seccion_logo {
+    height: 100px;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+
+.anclaIV_container h1 {
+    font-size: 26px;
+    line-height: 30px;
+    color: #105B89;
+    margin-top: 30px;
+}
+
+.anclaIV_container .anclaI_title2 {
+    margin-top: 80px;
+}
+
+/*SEGUROS*/
+.seguros_container {
+    width: 100%;
+    background-color: #E8EDEF;
+    padding: 0px 50px 0px 50px;
+}
+.seguros_icon1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 55px;
+    width: 100%;
+}
+
+/*CONVERSACION*/
+.conver_container {
+    padding-bottom: 100px;
+    width: 100%;
+    background-color: #FFFFFF;
+
+}
+.conver_title1 {
+    margin-top: 90px;
+    color: #F10C5D;
+    font-family: GloberRegular;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 70px;
+    text-align: center;
+}
+.conver_title2 {
+    margin-bottom: 70px;
+    color: #F10C5D;
+    font-family: Glober;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+}
+.conver_title3{
+    font-family: GloberRegular;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 70px;
+    text-align: center;
+}
+.conver_title4{
+    color: #fff;
+    font-family: GloberRegular;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 70px;
+    text-align: center;
+}
+.conver_icon1 {
+    height: 500px;
+    float:right;
+    text-align:right;
+}
+.conver_icon2 {
+    height: 500px;
+    float:left;
+    text-align:left;
+}
+
+@media only screen and (max-width: 1600px)  {
+    .anclaIV_container h1 {
+        font-size: 24px;
+        line-height: 26px;
+        margin-top: 24px;
+    }
+
+   .conver_icon1 {
+    height: 500px;
+    width: 65%;
+    float:right;
+    text-align:right;
+}
+.conver_icon2 {
+    height: 500px;
+    width: 65%;
+    float:left;
+    text-align:left;
+}
+}
+
+.img-chat-gris {
+    height: 113px;
+    width: 100%;
+    background: url(../Content/img/img-chat-gris.svg) center;
+    background-size: 100% 100%;
+}
+.img-chat-azul {
+    margin-right: 240px;
+    height: 113px;
+    width: 100%;
+    background: url(../Content/img/img-chat-azul.svg) center;
+    background-size: 100% 100%;
+}
+.platicagris {
+    margin-bottom:  26px;
+    height: 113px;
+    width: 399px;
+    float: right;
+}
+.platicaazul {
+    margin-bottom:  26px;
+    height: 113px;
+    width: 399px;
+    float: left;
+}
+
+/*ANCLA II*/
+.anclaII_container {
+    padding-top: 67px;
+    padding-bottom: 67px;
+    width: 100%;
+    background-color: #f8f9fa;
+}
+.anclaII_icon1 {
+    margin-top: 130px;
+    margin-bottom: 40px;
+    height: 115px;
+    width: 100%;
+}
+.anclaII_icon2 {
+    margin-top: 0px;
+    margin-bottom: 45px;
+    height: 151px;
+    width: 100%;
+}
+.anclaII_icon3 {
+    margin-top: 0px;
+    margin-bottom: 45px;
+    height: 130px;
+    width: 100%;
+}
+.anclaII_icon4 {
+    margin-top: -20px;
+    margin-bottom: 45px;
+    height: 151px;
+    width: 100%;
+}
+.anclaII_icon5 {
+    margin-top: 0px;
+    margin-bottom: 45px;
+    height: 130px;
+    width: 100%;
+}
+.anclaII_title1 {
+    color: #F10C5D;
+    font-family: GloberRegular;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 92px;
+    text-align: center;
+}
+.anclaII_title2 {
+    color: #F10C5D;
+    font-family: Glober;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 92px;
+}
+.anclaII_title3 {
+    padding-top: 160px;
+    color: #F10D5E;
+    font-family: GloberRegular;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: right;
+}
+.anclaII_title4 {
+    margin-top: -30px;
+    color: #F10D5E;
+    font-family: GloberRegular;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: right;
+}
+.anclaII_title5 {
+    padding-top: 10px;
+    color: #F10D5E;
+    font-family: GloberRegular;
+    font-size: 48px;
+    line-height: 72px;
+}
+.anclaII_title6 {
+    margin-top: -30px;
+    color: #F10D5E;
+    font-family: GloberRegular;
+    font-size: 24px;
+    line-height: 50px;
+}
+.anclaII_title7 {
+    margin-top: 40px;
+    color: #F10D5E;
+    font-family: GloberRegular;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: right;
+}
+.anclaII_title8{
+    margin-top: -30px;
+    color: #F10D5E;
+    font-family: GloberRegular;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: right;
+}
+.anclaII_negritas{
+    font-family: Glober;
+}
+.anclaII_title9 {
+    padding-top: 85px;
+    color: #105B89;
+    font-family: GloberRegular;
+    font-size: 24px;
+    line-height: 35px;
+}
+.anclaII_title10 {
+    padding-top: 28px;
+    color: #105B89;
+    font-family: GloberRegular;
+    font-size: 24px;
+    line-height: 35px;
+}
+.anclaII_title11 {
+    padding-top: 28px;
+    color: #105B89;
+    font-family: GloberRegular;
+    font-size: 24px;
+    line-height: 35px;
+}
+.anclaII_title12 {
+    margin-top: -60px;
+    color: #105B89;
+    font-family: GloberRegular;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: right;
+}
+.anclaII_title13 {
+    padding-top: 28px;
+    color: #105B89;
+    font-family: GloberRegular;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: right;
+}
+.anclaII_title14 {
+    padding-top: 28px;
+    color: #105B89;
+    font-family: GloberRegular;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: right;
+}
+.anclaII_title15 {
+    margin-top: -20px;
+    color: #105B89;
+    font-family: GloberRegular;
+    font-size: 24px;
+    line-height: 35px;
+}
+.anclaII_title16 {
+    padding-top: 28px;
+    color: #105B89;
+    font-family: GloberRegular;
+    font-size: 24px;
+    line-height: 35px;
+}
+.anclaII_title17 {
+    padding-top: 28px;
+    color: #105B89;
+    font-family: GloberRegular;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+/*PARRAFO*/
+.parrafo_container {
+    padding-top: 67px;
+    padding-bottom: 67px;
+    width: 100%;
+    background-color: #eef2f3;
+}
+.parrafo_title1 {
+    margin-left: 94px;
+    margin-right: 94px;
+    opacity: 0.82;
+    color: #105B89;
+    font-family: GloberRegular;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 48px;
+    text-align: center;
+}
+.parrafo_logo {
+    height: 80px;
+    width: 100%;
+}
+
+/*FOORTER*/
+.foorter_container  {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 0 3px 15px 0 rgba(0,0,0,0.5);
+}
+.foorter_pie1 {
+    color: #138EDB;
+    font-family: Glober;
+    font-size: 20px;
+    line-height: 80px;
+    text-align: center;
+}
+.logosecurity {
+    width: 80px;
+    margin-right: 34px;
+    }
+.foorter_logosSociales {
+    height: 50px;
+    width: 50px;
+    margin-right: 18px;
+}
+
+/*MODAL FORM*/
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.modalcontainer {
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.modalicon{
+    margin-bottom: 20px;
+}
+.modalTitle{
+    padding-top: 70px;
+}
+.Modaltitle1 {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    color: #3B3B3B;
+    font-family: GloberRegular;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+}
+.spanModal{
+        font-family: Glober;
+}
+.Modaltitle2 {
+    color: #5C5F60;
+    font-family: GloberRegular;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
+.Modaltitle3 {
+    color: #99A1A4;
+    font-family: GloberRegular;
+    font-size: 14px;
+    line-height: 20px;
+}
+.Modaltitle4 {
+    color: #FFFFFF;
+    font-family: GloberRegular;
+    font-size: 14.4px;
+    font-weight: bold;
+    line-height: 22px;
+    text-align: center;
+}
+.Modaltitle5 {
+    color: #3B3B3B;
+    font-family: Glober;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+}
+.Modaltitle6 {
+    color: #5C5F60;
+    font-family: Glober;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
+.ModalBtn {
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 4.07px;
+    background: #FF005B;
+}
+.ModalInputMargenes {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.ModalInput {
+    margin-bottom: 10px;
+    border: 1px solid #B6BBBD;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+.ModalInputRec {
+    border: 1px solid #D0021B;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+   .Modaltitle7 {
+    color: #D0021B;
+    font-family: GloberRegular;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.btnBloqueado {
+    background-color: #E6E6E6;
+    color: #3B3B3B;
+    border: 1px solid #B6BBBD;
+}
+
+/*Modal Restriccion Movil*/
+.titleMRM {
+    color: #4A4C4D;
+    font-family: Glober;
+    font-size: 22px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+    .titleMRM span {
+        color: #1679D2;
+    }
+
+.linkMRM{
+    color: #1679D2;
+    font-family: GloberRegular;
+    font-size: 20px;
+    line-height: 80px;
+    text-align: center;
+}
+
+/*Medidas Resposiva*/
+@media only screen and (min-width: 1024px)  {
+    .anclaIV_container h1 {
+        font-size: 24px;
+        line-height: 28px;
+        margin-top: 30px;
+        text-align: left;
+    }
+    /*CONVERSACION*/
+    .platicagris {
+        width: 299px;
+    }
+    .platicaazul {
+        width: 299px;
+    }
+
+    /*FOORTER*/
+    .foorter_pie1 {
+        font-size: 15px;
+    }
+
+    .anclaIV_container{
+    width: 100%;
+    background-color: #E8EDEF;
+    height: auto;
+    padding-bottom: 80px;
+}
+
+
+ 
+
+.anclaIV_container h1 {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+
+
+.anclaIV_container .anclaI_title2 {
+    margin-top: 20px;
+}
+
+
+
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 800px)  {
+    .devices {
+        width: 80%;
+        float: right;
+    }
+
+    .anclaIV_container h1 {
+        font-size: 22px;
+        line-height: 26px;
+        margin-top: 30px;
+        text-align: left;
+    }
+
+    .anclaIV_container .anclaI_title2 {
+        margin-top: 0px;
+    }
+ /*NAVBAR*/
+    .nav_logo {
+        margin-left: 0px;
+        padding-bottom: 6px;
+        height: 36px;
+        width: 120px;
+        background-image: url(../Content/img/logo-AgenteTop-w.svg);
+        background-repeat: no-repeat;
+    }
+    .nav_font_Menu2{
+        margin-top: -8px;
+        color: #3B3B3B;
+        font-family: Glober;
+        font-size: 12px;
+        text-align: center;
+    }
+    .nav_boton {
+        margin-top: 10px;
+        margin-right: 30px;
+        height: 35px;
+        width: 130px;
+        border: 2px solid #F10D5E;
+        border-radius: 5px;
+    }
+
+    /*HEADER*/
+    .mask {
+        width: 100%;
+        height: 450px;
+        /*opacity: 0.37;
+        background-color: #093550;*/
+    }
+    .bg {
+        width: 100%;
+        height: 450px;
+        left:0;
+        top: 0;
+    }
+    .img1 {
+        background: url(../Content/img/banner_background_mobile_optimizado.jpg) center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        position: absolute;
+        z-index: 1;
+    }
+    .header_btn_menu {
+        margin-top: 0px;
+        height: 50px;
+        width: 180px;
+        border-radius: 6.11px;
+        background: #F10D5E ;
+        opacity: 0.85;
+    }
+    .header_btn_menu:hover{
+        margin-top: 0px;
+        height: 50px;
+        width: 180px;
+        border-radius: 6.11px;
+        background: #F10D5E ;
+        opacity:1;
+    }
+    .header_title1 {
+        margin-top: 280px;
+        width: 100%;
+        color: #FFFFFF;
+        font-family: Glober;
+        font-size: 50px;
+        line-height: 30px;
+        text-align: center;
+        text-shadow: 4px 4px 5px #000000;
+    }
+    .header_title2 {
+        margin-top: 10px;
+        margin-bottom: 0px;
+        color: #FFFFFF;
+        font-family: GloberRegular;
+        font-size:40px;
+        line-height: 70px;
+        text-align: center;
+        text-shadow: 4px 4px 5px #000000 !important;
+    }
+    .header_title3 {
+        padding-top: 10px;
+        color: #FFFFFF!important;
+        font-family: GloberRegular;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    /*CONVERSACION*/
+    .conver_container {
+        padding-bottom: 50px;
+        width: 100%;
+        background-color: #FFFFFF;
+
+    }
+    .conver_title1 {
+        margin-top: 90px;
+        color: #F10C5D;
+        font-family: GloberRegular;
+        font-size: 50px;
+        font-weight: 300;
+        line-height: 50px;
+        text-align: center;
+    }
+    .conver_title2 {
+        margin-top: -10px;
+        margin-bottom: 50px;
+        color: #F10C5D;
+        font-family: Glober;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 48px;
+        text-align: center;
+    }
+    .conver_title3{
+        font-family: GloberRegular;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 50px;
+        text-align: center;
+    }
+    .conver_title4{
+        color: #fff;
+        font-family: GloberRegular;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 50px;
+        text-align: center;
+    }
+    .conver_icon1, .conver_icon2 {
+        width: 40%;
+    }
+
+    .img-chat-gris {
+        height: 80px;
+        width: 100%;
+        background: url(../Content/img/img-chat-gris.svg) center;
+        background-size: 100% 100%;
+    }
+    .img-chat-azul {
+        height: 80px;
+        width: 100%;
+        background: url(../Content/img/img-chat-azul.svg) center;
+        background-size: 100% 100%;
+    }
+    .platicagris {
+        margin-bottom:  26px;
+        height: 100px;
+        width: 500px;
+        float: right;
+    }
+    .platicaazul {
+        margin-bottom:  26px;
+        height: 100px;
+        width: 500px;
+        float: left;
+    }
+
+    /*ANCLA II*/
+    .anclaII_container {
+        padding-top: 67px;
+        padding-bottom: 67px;
+        width: 100%;
+        background-color: #f8f9fa;
+    }
+    .anclaII_icon1 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        height: 115px;
+        width: 100%;
+    }
+    .anclaII_icon2 {
+        margin-top: 0px;
+        margin-bottom: 45px;
+        height: 151px;
+        width: 100%;
+    }
+    .anclaII_icon3 {
+        margin-top: 0px;
+        margin-bottom: 45px;
+        height: 130px;
+        width: 100%;
+    }
+    .anclaII_icon4 {
+        margin-top: 0px;
+        margin-bottom: 45px;
+        height: 151px;
+        width: 100%;
+    }
+    .anclaII_icon5 {
+        margin-top: 0px;
+        margin-bottom: 45px;
+        height: 130px;
+        width: 100%;
+    }
+    .anclaII_title1 {
+        color: #F10C5D;
+        font-family: GloberRegular;
+        font-size: 50px;
+        font-weight: 300;
+        line-height: 50px;
+        text-align: center;
+    }
+    .anclaII_title2 {
+        color: #F10C5D;
+        font-family: Glober;
+        font-size: 50px;
+        font-weight: 300;
+        line-height: 50px;
+    }
+    .anclaII_title3 {
+        padding-top: 11px;
+        color: #F10D5E;
+        font-family: GloberRegular;
+        font-size: 48px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .anclaII_title4 {
+        margin-top: -20px;
+        color: #F10D5E;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .anclaII_title5 {
+        margin-top: -50px;
+        color: #F10D5E;
+        font-family: GloberRegular;
+        font-size: 48px;
+        line-height: 72px;
+        text-align: center;
+    }
+    .anclaII_title6 {
+        margin-top: -30px;
+        color: #F10D5E;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .anclaII_title7 {
+        margin-top: 40px;
+        color: #F10D5E;
+        font-family: GloberRegular;
+        font-size: 48px;
+        line-height: 72px;
+        text-align: center;
+    }
+    .anclaII_title8{
+        margin-top: -30px;
+        color: #F10D5E;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .anclaII_title9 b, .anclaII_title10 b, .anclaII_title11 b {
+        font-family: Glober;
+    }
+    .anclaII_title9 {
+        padding-top: 20px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title10 {
+        padding-top: 10px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title11 {
+        padding-top: 18px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title12 {
+        margin-top: 0px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title13 {
+        padding-top: 28px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title14 {
+        padding-top: 28px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title15 {
+        margin-top: -20px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title16 {
+        padding-top: 28px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title17 {
+        padding-top: 28px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    /*PARRAFO*/
+    .parrafo_container {
+        padding-top: 30px;
+        padding-bottom: 67px;
+        width: 100%;
+        background-color: #eef2f3;
+    }
+    .parrafo_title1 {
+        margin-left: 0px;
+        margin-right: 0px;
+        opacity: 0.82;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 30px;
+        text-align: center;
+    }
+    .parrafo_logo {
+        height: 80px;
+        width: 100%;
+    }
+
+    /*FOORTER*/
+    .centrar_lSociales{
+        margin-left: 300px;
+    }
+    .foorter_logosSociales {
+        height: 50px;
+        width: 50px;
+        margin-right: 10px;
+    }
+
+    /*MODAL FORM*/
+    .modal {
+      text-align: center;
+      padding: 0!important;
+    }
+    .modal:before {
+      content: '';
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+      margin-right: -4px;
+    }
+    .modal-dialog {
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+        width: 90%;
+        height: 100%;
+    }
+    .Modaltitle1 {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 45px;
+        padding-bottom: 15px;
+        color: #3B3B3B;
+        font-family: GloberRegular;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 20px;
+        text-align: center;
+    }
+    .spanModal{
+            font-family: Glober;
+    }
+    .Modaltitle2 {
+        padding-bottom: 30px;
+        color: #5C5F60;
+        font-family: GloberRegular;
+        font-size: 15px;
+        line-height: 15px;
+        text-align: center;
+    }
+    .Modaltitle3 {
+        color: #99A1A4;
+        font-family: GloberRegular;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .Modaltitle4 {
+        color: #FFFFFF;
+        font-family: GloberRegular;
+        font-size: 14.4px;
+        font-weight: bold;
+        line-height: 22px;
+        text-align: center;
+    }
+    .ModalBtn {
+        height: 40px;
+        border-radius: 4.07px;
+        background: #FF005B;
+    }
+    .ModalInputMargenes {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .ModalInput {
+        margin-bottom: 10px;
+        border: 1px solid #B6BBBD;
+        border-radius: 5px;
+        background-color: #FFFFFF;
+    }
+    .ModalInputRec {
+        border: 1px solid #D0021B;
+        border-radius: 5px;
+        background-color: #FFFFFF;
+    }
+}
+
+@media only screen and (max-width: 799px) and (min-width: 600px)  {
+    .hide {display: none;}
+    .seguros_container {
+        padding: 0px 0px 0px 0px;
+    }
+    .devices {
+        background-image: url(../Content/img/devices2.png);
+        width: 70%;
+        height: 400px;
+        margin: auto;
+    }
+    .anclaIV_container h1 {
+        font-size: 22px;
+        line-height: 26px;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .anclaIV_container .anclaI_title2 {
+        margin-top: 0px;
+    }
+
+
+      /*NAVBAR*/
+    .nav_logo {
+        margin-left: 0px;
+        padding-bottom: 6px;
+        height: 36px;
+        width: 120px;
+        background-image: url(../Content/img/logo-AgenteTop-w.svg);
+        background-repeat: no-repeat;
+    }
+    .nav_font_Menu2{
+        color: #3B3B3B;
+        font-family: Glober;
+        font-size: 12px;
+        text-align: center;
+    }
+    .nav_boton {
+    margin-right: 30px;
+    height: 35px;
+    width: 150px;
+    border: 2px solid #F10D5E;
+    border-radius: 5px;
+}
+    
+
+
+    /*HEADER*/
+    .mask {
+        width: 100%;
+        height: 450px;
+        /*opacity: 0.37;
+        background-color: #093550;*/
+    }
+    .bg {
+        width: 100%;
+        height: 450px;
+        left:0;
+        top: 0;
+    }
+    .img1 {
+        background: url(../Content/img/banner_background_mobile_optimizado.jpg) center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        position: absolute;
+        z-index: 1;
+    }
+    .header_btn_menu {
+        margin-top: 0px;
+        height: 50px;
+        width: 180px;
+        border-radius: 6.11px;
+        background: #F10D5E ;
+        opacity: 1;
+    }
+    .header_btn_menu:hover{
+        margin-top: 0px;
+        height: 50px;
+        width: 180px;
+        border-radius: 6.11px;
+        background: #F10D5E ;
+        opacity:1;
+    }
+    .header_title1 {
+        margin-top: 280px;
+        width: 100%;
+        color: #FFFFFF;
+        font-family: Glober;
+        font-size: 40px;
+        line-height: 22px;
+        text-align: center;
+        text-shadow: 4px 4px 5px #000000 ;
+    }
+    .header_title2 {
+        margin-top: 10px;
+        margin-bottom: 0px;
+        color: #FFFFFF;
+        font-family: GloberRegular;
+        font-size:30px;
+        line-height: 70px;
+        text-align: center;
+        text-shadow: 4px 4px 5px #000000 !important;
+    }
+    .header_title3 {
+        padding-top: 10px;
+        color: #FFFFFF!important;
+        font-family: GloberRegular;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    /*CONVERSACION*/
+    .conver_container {
+        padding-bottom: 50px;
+        width: 100%;
+        background-color: #FFFFFF;
+
+    }
+    .conver_title1 {
+        margin-top: 90px;
+        color: #F10C5D;
+        font-family: GloberRegular;
+        font-size: 40px;
+        font-weight: 300;
+        line-height: 40px;
+        text-align: center;
+    }
+    .conver_title2 {
+        margin-top: -10px;
+        margin-bottom: 50px;
+        color: #F10C5D;
+        font-family: Glober;
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: center;
+    }
+    .conver_title3{
+        font-family: GloberRegular;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 40px;
+        text-align: center;
+    }
+    .conver_title4{
+        color: #fff;
+        font-family: GloberRegular;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .conver_icon1, .conver_icon2 {width: 50%; height: 400px}
+
+    .img-chat-gris {
+        height: 70px;
+        width: 100%;
+        background:url(../Content/img/img-chat-gris.svg) center;
+        background-size: 100% 100%;
+    }
+    .img-chat-azul {
+        height: 70px;
+        width: 100%;
+        background:url(../Content/img/img-chat-azul.svg) center;
+        background-size: 100% 100%;
+    }
+    .platicagris {
+        margin-bottom:  26px;
+        height: 80px;
+        width: 350px;
+        float: right;
+    }
+    .platicaazul {
+        margin-bottom:  26px;
+        height: 80px;
+        width: 350px;
+        float: left;
+    }
+
+    /*ANCLA II*/
+    .anclaII_container {
+        padding-top: 67px;
+        padding-bottom: 67px;
+        width: 100%;
+        background-color: #f8f9fa;
+    }
+    .anclaII_icon1 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        height: 115px;
+        width: 100%;
+    }
+    .anclaII_icon2 {
+        margin-top: 0px;
+        margin-bottom: 45px;
+        height: 151px;
+        width: 100%;
+    }
+    .anclaII_icon3 {
+        margin-top: 0px;
+        margin-bottom: 45px;
+        height: 130px;
+        width: 100%;
+    }
+    .anclaII_icon4 {
+        margin-top: 0px;
+        margin-bottom: 45px;
+        height: 151px;
+        width: 100%;
+    }
+    .anclaII_icon5 {
+        margin-top: 0px;
+        margin-bottom: 45px;
+        height: 130px;
+        width: 100%;
+    }
+    .anclaII_title1 {
+        color: #F10C5D;
+        font-family: GloberRegular;
+        font-size: 50px;
+        font-weight: 300;
+        line-height: 50px;
+        text-align: center;
+    }
+    .anclaII_title2 {
+        color: #F10C5D;
+        font-family: Glober;
+        font-size: 50px;
+        font-weight: 300;
+        line-height: 50px;
+    }
+    .anclaII_title3 {
+        padding-top: 11px;
+        color: #F10D5E;
+        font-family: GloberRegular;
+        font-size: 48px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .anclaII_title4 {
+        margin-top: -20px;
+        color: #F10D5E;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .anclaII_title5 {
+        margin-top: -50px;
+        color: #F10D5E;
+        font-family: GloberRegular;
+        font-size: 48px;
+        line-height: 72px;
+        text-align: center;
+    }
+    .anclaII_title6 {
+        margin-top: -30px;
+        color: #F10D5E;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .anclaII_title7 {
+        margin-top: 40px;
+        color: #F10D5E;
+        font-family: GloberRegular;
+        font-size: 48px;
+        line-height: 72px;
+        text-align: center;
+    }
+    .anclaII_title8{
+        margin-top: -30px;
+        color: #F10D5E;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .anclaII_title9 b, .anclaII_title10 b, .anclaII_title11 b {
+        font-family: Glober;
+    }
+    .anclaII_title9 {
+        padding-top: 20px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title10 {
+        padding-top: 10px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title11 {
+        padding-top: 18px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title12 {
+        margin-top: 0px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title13 {
+        padding-top: 28px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title14 {
+        padding-top: 28px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title15 {
+        margin-top: -20px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title16 {
+        padding-top: 28px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title17 {
+        padding-top: 28px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    /*PARRAFO*/
+    .parrafo_container {
+        padding-top: 30px;
+        padding-bottom: 67px;
+        width: 100%;
+        background-color: #eef2f3;
+    }
+    .parrafo_title1 {
+        margin-left: 0px;
+        margin-right: 0px;
+        opacity: 0.82;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 30px;
+        text-align: center;
+    }
+    .parrafo_logo {
+        height: 80px;
+        width: 100%;
+    }
+
+    /*FOORTER*/
+    .centrar_lSociales{
+        margin-left: 195px;
+    }
+    .foorter_logosSociales {
+        height: 50px;
+        width: 50px;
+        margin-right: 10px;
+    }
+
+    /*MODAL FORM*/
+    .modal {
+      text-align: center;
+      padding: 0!important;
+    }
+    .modal:before {
+      content: '';
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+      margin-right: -4px;
+    }
+    .modal-dialog {
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+        width: 90%;
+        height: 100%;
+    }
+    .Modaltitle1 {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 45px;
+        padding-bottom: 15px;
+        color: #3B3B3B;
+        font-family: GloberRegular;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 20px;
+        text-align: center;
+    }
+    .spanModal{
+            font-family: Glober;
+    }
+    .Modaltitle2 {
+        padding-bottom: 30px;
+        color: #5C5F60;
+        font-family: GloberRegular;
+        font-size: 15px;
+        line-height: 15px;
+        text-align: center;
+    }
+    .Modaltitle3 {
+        color: #99A1A4;
+        font-family: GloberRegular;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .Modaltitle4 {
+        color: #FFFFFF;
+        font-family: GloberRegular;
+        font-size: 14.4px;
+        font-weight: bold;
+        line-height: 22px;
+        text-align: center;
+    }
+    .ModalBtn {
+        height: 40px;
+        border-radius: 4.07px;
+        background: #FF005B;
+    }
+    .ModalInputMargenes {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .ModalInput {
+        margin-bottom: 10px;
+        border: 1px solid #B6BBBD;
+        border-radius: 5px;
+        background-color: #FFFFFF;
+    }
+    .ModalInputRec {
+        border: 1px solid #D0021B;
+        border-radius: 5px;
+        background-color: #FFFFFF;
+    }
+}
+
+@media only screen and (max-width: 599px) and (min-width: 480px)  {
+    .seguros_container {
+        padding: 0px 0px 0px 0px;
+    }
+      /*NAVBAR*/
+    .nav_logo {
+        margin-left: 0px;
+        padding-bottom: 6px;
+        height: 30px;
+        width: 120px;
+        background-image: url(../Content/img/logo-AgenteTop-w.svg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .nav_font_Menu2{
+        margin-top: -3px;
+        color: #3B3B3B;
+        font-family: Glober;
+        font-size: 12px;
+        text-align: center;
+    }
+    .nav_boton {
+        margin-top: 0px;
+        margin-right: 30px;
+        height: 35px;
+        width: 130px;
+        border: 2px solid #F10D5E;
+        border-radius: 5px;
+    }
+
+    /*HEADER*/
+    .mask {
+        width: 100%;
+        height: 450px;
+        /*opacity: 0.37;
+        background-color: #093550;*/
+    }
+    .bg {
+        width: 100%;
+        height: 450px;
+        left:0;
+        top: 0;
+    }
+    .img1 {
+        background:url(../Content/img/banner_background_mobile_optimizado.jpg) center;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        background-size:cover;
+        position: absolute;
+        z-index: 1;
+    }
+    .header_btn_menu {
+        margin-top: 0px;
+        height: 50px;
+        width: 180px;
+        border-radius: 6.11px;
+        background: #F10D5E ;
+        opacity: 1;
+    }
+    .header_btn_menu:hover{
+        margin-top: 0px;
+        height: 50px;
+        width: 180px;
+        border-radius: 6.11px;
+        background: #F10D5E ;
+        opacity:1;
+    }
+    .header_title1 {
+        margin-top: 280px;
+        width: 100%;
+        color: #FFFFFF;
+        font-family: Glober;
+        font-size: 30px;
+        line-height: 22px;
+        text-align: center;
+        text-shadow: 4px 4px 5px #000000 ;
+    }
+    .header_title2 {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        color: #FFFFFF;
+        font-family: GloberRegular;
+        font-size: 28px;
+        line-height: 50px;
+        text-align: center;
+        text-shadow: 4px 4px 5px #000000 !important;
+    }
+    .header_title3 {
+        padding-top: 10px;
+        color: #FFFFFF!important;
+        font-family: GloberRegular;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    /*CONVERSACION*/
+    .conver_container {
+        padding-bottom: 50px;
+        width: 100%;
+        background-color: #FFFFFF;
+
+    }
+    .conver_title1 {
+        margin-top: 90px;
+        color: #F10C5D;
+        font-family: GloberRegular;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 30px;
+        text-align: center;
+    }
+    .conver_title2 {
+        margin-top: -10px;
+        margin-bottom: 50px;
+        color: #F10C5D;
+        font-family: Glober;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 20px;
+        text-align: center;
+    }
+    .conver_title3{
+        font-family: GloberRegular;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 40px;
+        text-align: center;
+    }
+    .conver_title4{
+        color: #fff;
+        font-family: GloberRegular;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .img-chat-gris {
+        height: 70px;
+        width: 100%;
+        background:url(../Content/img/img-chat-gris.svg) center;
+        background-size: 100% 100%;
+    }
+    .img-chat-azul {
+        height: 70px;
+        width: 100%;
+        background:url(../Content/img/img-chat-azul.svg) center;
+        background-size: 100% 100%;
+    }
+    .platicagris {
+        margin-bottom:  26px;
+        height: 70px;
+        width: 220px;
+        float: right;
+    }
+    .platicaazul {
+        margin-bottom:  26px;
+        height: 70px;
+        width: 220px;
+        float: left;
+    }
+
+    /*ANCLA II*/
+    .anclaII_container {
+        padding-top: 67px;
+        padding-bottom: 67px;
+        width: 100%;
+        background-color: #f8f9fa;
+    }
+    .anclaII_icon1 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        height: 115px;
+        width: 100%;
+    }
+    .anclaII_icon2 {
+        margin-top: 0px;
+        margin-bottom: 45px;
+        height: 151px;
+        width: 100%;
+    }
+    .anclaII_icon3 {
+        margin-top: 0px;
+        margin-bottom: 45px;
+        height: 130px;
+        width: 100%;
+    }
+    .anclaII_icon4 {
+        margin-top: 0px;
+        margin-bottom: 45px;
+        height: 151px;
+        width: 100%;
+    }
+    .anclaII_icon5 {
+        margin-top: 0px;
+        margin-bottom: 45px;
+        height: 130px;
+        width: 100%;
+    }
+    .anclaII_title1 {
+        color: #F10C5D;
+        font-family: GloberRegular;
+        font-size: 25px;
+        font-weight: 300;
+        line-height: 25px;
+        text-align: center;
+    }
+    .anclaII_title2 {
+        color: #F10C5D;
+        font-family: Glober;
+        font-size: 25px;
+        font-weight: 300;
+        line-height: 20px;
+    }
+    .anclaII_title3 {
+        padding-top: 11px;
+        color: #F10D5E;
+        font-family: GloberRegular;
+        font-size: 40px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .anclaII_title4 {
+        margin-top: -20px;
+        color: #F10D5E;
+        font-family: GloberRegular;
+        font-size: 15px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .anclaII_title5 {
+        margin-top: -50px;
+        color: #F10D5E;
+        font-family: GloberRegular;
+        font-size: 48px;
+        line-height: 72px;
+        text-align: center;
+    }
+    .anclaII_title6 {
+        margin-top: -30px;
+        color: #F10D5E;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .anclaII_title7 {
+        margin-top: 40px;
+        color: #F10D5E;
+        font-family: GloberRegular;
+        font-size: 48px;
+        line-height: 72px;
+        text-align: center;
+    }
+    .anclaII_title8{
+        margin-top: -30px;
+        color: #F10D5E;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .anclaII_title9 b, .anclaII_title10 b, .anclaII_title11 b {
+        font-family: Glober;
+    }
+    .anclaII_title9 {
+        padding-top: 20px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title10 {
+        padding-top: 10px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title11 {
+        padding-top: 18px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title12 {
+        margin-top: 0px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title13 {
+        padding-top: 28px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title14 {
+        padding-top: 28px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title15 {
+        margin-top: -20px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title16 {
+        padding-top: 28px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title17 {
+        padding-top: 28px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    /*PARRAFO*/
+    .parrafo_container {
+        padding-top: 30px;
+        padding-bottom: 67px;
+        width: 100%;
+        background-color: #eef2f3;
+    }
+    .parrafo_title1 {
+        margin-left: 0px;
+        margin-right: 0px;
+        opacity: 0.82;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 30px;
+        text-align: center;
+    }
+    .parrafo_logo {
+        height: 80px;
+        width: 100%;
+    }
+
+    /*FOORTER*/
+    .centrar_lSociales{
+        margin-left: 140px;
+    }
+    .foorter_logosSociales {
+        height: 50px;
+        width: 50px;
+        margin-right: 10px;
+    }
+
+    /*MODAL FORM*/
+    .modal {
+      text-align: center;
+      padding: 0!important;
+    }
+    .modal:before {
+      content: '';
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+      margin-right: -4px;
+    }
+    .modal-dialog {
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+        width: 90%;
+        height: 100%;
+    }
+    .Modaltitle1 {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 45px;
+        padding-bottom: 15px;
+        color: #3B3B3B;
+        font-family: GloberRegular;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 20px;
+        text-align: center;
+    }
+    .spanModal{
+            font-family: Glober;
+    }
+    .Modaltitle2 {
+        padding-bottom: 30px;
+        color: #5C5F60;
+        font-family: GloberRegular;
+        font-size: 15px;
+        line-height: 15px;
+        text-align: center;
+    }
+    .Modaltitle3 {
+        color: #99A1A4;
+        font-family: GloberRegular;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .Modaltitle4 {
+        color: #FFFFFF;
+        font-family: GloberRegular;
+        font-size: 14.4px;
+        font-weight: bold;
+        line-height: 22px;
+        text-align: center;
+    }
+    .ModalBtn {
+        height: 40px;
+        border-radius: 4.07px;
+        background: #FF005B;
+    }
+    .ModalInputMargenes {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .ModalInput {
+        margin-bottom: 10px;
+        border: 1px solid #B6BBBD;
+        border-radius: 5px;
+        background-color: #FFFFFF;
+    }
+    .ModalInputRec {
+        border: 1px solid #D0021B;
+        border-radius: 5px;
+        background-color: #FFFFFF;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 479px) and (min-width: 321px)  {
+    .seguros_container {
+        padding: 0px 0px 0px 0px;
+    }
+    .seccion_logo {
+        height: 70px;
+        width: 100%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .devices {
+        background-image: url(../Content/img/devices2.png);
+        width: 80%;
+        height: 280px;
+        margin: auto;
+    }
+
+    .anclaIV_container h1 {
+        font-size: 26px;
+        line-height: 30px;
+        margin-top: 30px;
+        text-align: center !important;
+    }
+
+    .justify {
+        text-align: center;
+    }
+
+    .anclaIV_container .anclaI_title2 {
+        margin-top: 0px;
+    }
+    /*NAVBAR*/
+    .nav_logo {
+        margin-left: 0px;
+        padding-bottom: 6px;
+        height: 30px;
+        width: 120px;
+        background-image: url(../Content/img/logo-AgenteTop-w.svg);
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+    }
+    .nav_font_Menu2{
+        margin-top: -3px;
+        color: #3B3B3B;
+        font-family: Glober;
+        font-size: 12px;
+        text-align: center;
+    }
+    .nav_boton {
+        margin-top: 0px;
+        margin-right: 30px;
+        height: 35px;
+        width: 150px;
+        border: 2px solid #F10D5E;
+        border-radius: 5px;
+    }
+
+    /*HEADER*/
+    .mask {
+        width: 100%;
+        height: 450px;
+        /*opacity: 0.37;
+        background-color: #093550;*/
+    }
+    .bg {
+        width: 100%;
+        height: 450px;
+        left:0;
+        top: 0;
+    }
+    .img1 {
+        background:url(../Content/img/banner_background_mobile_optimizado.jpg) center;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        background-size:cover;
+        position: absolute;
+        z-index: 1;
+    }
+    .header_btn_menu {
+        margin-top: 0px;
+        height: 50px;
+        width: 200px;
+        border-radius: 6.11px;
+        background: #F10D5E ;
+        opacity: 1;
+    }
+
+ 
+    .header_btn_menu:hover{
+        margin-top: 0px;
+        height: 50px;
+        width: 200px;
+        border-radius: 6.11px;
+        background: #F10D5E ;
+        opacity:1;
+    }
+    .header_title1 {
+        margin-top: 280px;
+        width: 100%;
+        color: #FFFFFF;
+        font-family: Glober;
+        font-size: 30px;
+        line-height: 22px;
+        text-align: center;
+        text-shadow: 4px 4px 5px #000000 ;
+    }
+    .header_title2 {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        color: #FFFFFF;
+        font-family: GloberRegular;
+        font-size: 28px;
+        line-height: 50px;
+        text-align: center;
+        text-shadow: 4px 4px 5px #000000 !important;
+    }
+    .header_title3 {
+        padding-top: 10px;
+        color: #FFFFFF!important;
+        font-family: GloberRegular;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    /*CONVERSACION*/
+    .conver_container {
+        padding-bottom: 50px;
+        width: 100%;
+        background-color: #FFFFFF;
+
+    }
+    .conver_title1 {
+        margin-top: 90px;
+        color: #F10C5D;
+        font-family: GloberRegular;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 30px;
+        text-align: center;
+    }
+    .conver_title2 {
+        margin-top: -10px;
+        margin-bottom: 50px;
+        color: #F10C5D;
+        font-family: Glober;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 20px;
+        text-align: center;
+    }
+    .conver_title3{
+        font-family: GloberRegular;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 40px;
+        text-align: center;
+    }
+    .conver_title4{
+        color: #fff;
+        font-family: GloberRegular;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 40px;
+        text-align: center;
+    }
+
+       .conver_icon1, .conver_icon2 {width: 50%; height: 300px}
+
+    .img-chat-gris {
+        height: 70px;
+        width: 100%;
+        background:url(../Content/img/img-chat-gris.svg) center;
+        background-size: 100% 100%;
+    }
+    .img-chat-azul {
+        height: 70px;
+        width: 100%;
+        background:url(../Content/img/img-chat-azul.svg) center;
+        background-size: 100% 100%;
+    }
+    .platicagris {
+        margin-bottom:  26px;
+        height: 70px;
+        width: 220px;
+        float: right;
+    }
+    .platicaazul {
+        margin-bottom:  26px;
+        height: 70px;
+        width: 220px;
+        float: left;
+    }
+
+    /*ANCLA II*/
+    .anclaII_container {
+        padding-top: 67px;
+        padding-bottom: 67px;
+        width: 100%;
+        background-color: #f8f9fa;
+    }
+    .anclaII_icon1 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        height: 115px;
+        width: 100%;
+    }
+    .anclaII_icon2 {
+        margin-top: 0px;
+        margin-bottom: 45px;
+        height: 151px;
+        width: 100%;
+    }
+    .anclaII_icon3 {
+        margin-top: 0px;
+        margin-bottom: 45px;
+        height: 130px;
+        width: 100%;
+    }
+    .anclaII_icon4 {
+        margin-top: 0px;
+        margin-bottom: 45px;
+        height: 151px;
+        width: 100%;
+    }
+    .anclaII_icon5 {
+        margin-top: 0px;
+        margin-bottom: 45px;
+        height: 130px;
+        width: 100%;
+    }
+    .anclaII_title1 {
+        color: #F10C5D;
+        font-family: GloberRegular;
+        font-size: 25px;
+        font-weight: 300;
+        line-height: 25px;
+        text-align: center;
+    }
+    .anclaII_title2 {
+        color: #F10C5D;
+        font-family: Glober;
+        font-size: 25px;
+        font-weight: 300;
+        line-height: 20px;
+    }
+    .anclaII_title3 {
+        padding-top: 11px;
+        color: #F10D5E;
+        font-family: GloberRegular;
+        font-size: 40px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .anclaII_title4 {
+        margin-top: -20px;
+        color: #F10D5E;
+        font-family: GloberRegular;
+        font-size: 15px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .anclaII_title5 {
+        margin-top: -50px;
+        color: #F10D5E;
+        font-family: GloberRegular;
+        font-size: 48px;
+        line-height: 72px;
+        text-align: center;
+    }
+    .anclaII_title6 {
+        margin-top: -30px;
+        color: #F10D5E;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .anclaII_title7 {
+        margin-top: 40px;
+        color: #F10D5E;
+        font-family: GloberRegular;
+        font-size: 48px;
+        line-height: 72px;
+        text-align: center;
+    }
+    .anclaII_title8{
+        margin-top: -30px;
+        color: #F10D5E;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .anclaII_title9 {
+        padding-top: 20px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title10 {
+        padding-top: 10px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title11 {
+        padding-top: 18px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title12 {
+        margin-top: 0px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title13 {
+        padding-top: 28px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title14 {
+        padding-top: 28px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title15 {
+        margin-top: -20px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title16 {
+        padding-top: 28px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title17 {
+        padding-top: 28px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .seccion_logo {
+    height: 70px;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+    .flecha {
+        display: none;
+}
+
+    .flecha2 {
+        transform:          rotate(90deg);
+        -ms-transform:      rotate(90deg);
+        -moz-transform:     rotate(90deg);
+        -webkit-transform:  rotate(90deg);
+        -o-transform:       rotate(90deg);
+
+        width: 100%;
+        height: 40px;
+    }
+
+    .mockup {
+        width: 100%;
+    }
+
+    .anclaIV_container h1 {
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 30px;
+}
+    .justify {
+        text-align:center;
+    }
+
+    .anclaIV_container .anclaI_title2 {
+        margin-top: 10px;
+    }
+
+    /*PARRAFO*/
+    .parrafo_container {
+        padding-top: 30px;
+        padding-bottom: 67px;
+        width: 100%;
+        background-color: #eef2f3;
+    }
+    .parrafo_title1 {
+        margin-left: 0px;
+        margin-right: 0px;
+        opacity: 0.82;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 30px;
+        text-align: center;
+    }
+    .parrafo_logo {
+        height: 80px;
+        width: 100%;
+    }
+
+    /*FOORTER*/
+    .centrar_lSociales{
+        margin-left: 70px;
+    }
+    .foorter_logosSociales {
+        height: 50px;
+        width: 50px;
+        margin-right: 10px;
+    }
+
+    /*MODAL FORM*/
+    .modal {
+      text-align: center;
+      padding: 0!important;
+    }
+    .modal:before {
+      content: '';
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+      margin-right: -4px;
+    }
+    .modal-dialog {
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+        width: 90%;
+        height: 100%;
+    }
+    .Modaltitle1 {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 45px;
+        padding-bottom: 15px;
+        color: #3B3B3B;
+        font-family: GloberRegular;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 20px;
+        text-align: center;
+    }
+    .spanModal{
+            font-family: Glober;
+    }
+    .Modaltitle2 {
+        color: #5C5F60;
+        font-family: GloberRegular;
+        font-size: 15px;
+        line-height: 15px;
+        text-align: center;
+    }
+    .Modaltitle3 {
+        color: #99A1A4;
+        font-family: GloberRegular;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .Modaltitle4 {
+        color: #FFFFFF;
+        font-family: GloberRegular;
+        font-size: 14.4px;
+        font-weight: bold;
+        line-height: 22px;
+        text-align: center;
+    }
+    .ModalBtn {
+        height: 40px;
+        border-radius: 4.07px;
+        background: #FF005B;
+    }
+    .ModalInputMargenes {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .ModalInput {
+        margin-bottom: 10px;
+        border: 1px solid #B6BBBD;
+        border-radius: 5px;
+        background-color: #FFFFFF;
+    }
+    .ModalInputRec {
+        border: 1px solid #D0021B;
+        border-radius: 5px;
+        background-color: #FFFFFF;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .seguros_container {
+        padding: 0px 0px 0px 0px;
+    }
+    .seccion_logo {
+        height: 70px;
+        width: 100%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .devices {
+        background-image: url(../Content/img/devices2.png);
+        width: 90%;
+        height: 240px;
+        margin: auto;
+    }
+
+    .anclaIV_container h1 {
+        font-size: 26px;
+        line-height: 30px;
+        margin-top: 30px;
+        text-align: center !important;
+    }
+
+    .justify {
+        text-align: center;
+    }
+
+    .anclaIV_container .anclaI_title2 {
+        margin-top: 10px;
+    }
+
+    /*NAVBAR*/
+    .nav_logo {
+        margin-left: 0px;
+        padding-bottom: 6px;
+        height: 30px;
+        width: 120px;
+        background-image: url(../Content/img/logo-AgenteTop-w.svg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .nav_font_Menu2{
+        margin-top: -3px;
+        color: #3B3B3B;
+        font-family: Glober;
+        font-size: 12px;
+        text-align: center;
+    }
+    .nav_boton {
+        margin-top: 0px;
+        margin-right: 30px;
+        height: 35px;
+        width: 150px;
+        border: 2px solid #F10D5E;
+        border-radius: 5px;
+    }
+
+    /*HEADER*/
+    .mask {
+        width: 100%;
+        height: 450px;
+        /*opacity: 0.37;
+        background-color: #093550;*/
+    }
+    .bg {
+        width: 100%;
+        height: 450px;
+        left:0;
+        top: 0;
+    }
+    .img1 {
+        background:url(../Content/img/banner_background_mobile_optimizado.jpg) center;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        background-size:cover;
+        position: absolute;
+        z-index: 1;
+    }
+    .header_btn_menu {
+        margin-top: 0px;
+        height: 50px;
+        width: 180px;
+        border-radius: 6.11px;
+        background: #F10D5E ;
+        opacity: 1;
+    }
+    .header_btn_menu:hover{
+        margin-top: 0px;
+        height: 50px;
+        width: 180px;
+        border-radius: 6.11px;
+        background: #F10D5E ;
+        opacity:1;
+    }
+    .header_title1 {
+        margin-top: 260px;
+        width: 100%;
+        color: #FFFFFF;
+        font-family: Glober;
+        font-size: 38px;
+        line-height: 36px;
+        text-align: center;
+        text-shadow: 4px 4px 5px #000000;
+    }
+    .header_title2 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: #FFFFFF;
+        font-family: GloberRegular;
+        font-size: 20px;
+        line-height: 60px;
+        text-align: center;
+        text-shadow: 4px 4px 5px #000000 !important;
+    }
+    .header_title3 {
+        padding-top: 10px;
+        color: #FFFFFF!important;
+        font-family: GloberRegular;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    /*CONVERSACION*/
+    .conver_container {
+        padding-bottom: 50px;
+        width: 100%;
+        background-color: #FFFFFF;
+
+    }
+    .conver_title1 {
+           margin-top: 50px;
+    color: #F10C5D;
+    font-family: Glober;
+    font-size: 38px;
+    line-height: 36px;
+
+    }
+    .conver_title2 {
+        margin-top: -10px;
+        margin-bottom: 50px;
+        color: #F10C5D;
+        font-family: Glober;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 20px;
+        text-align: center;
+    }
+    .conver_title3 {
+        font-family: GloberRegular;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .conver_title4 {
+        color: #fff;
+        font-family: GloberRegular;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .conver_icon1 {
+        height: 300px;
+        width: 65%;
+    }
+    .conver_icon2 {
+        height: 300px;
+        width: 65%;
+    }
+    .img-chat-gris {
+        height: 51px;
+        width: 100%;
+        background:url(../Content/img/img-chat-gris.svg) center;
+        background-size: 100% 100%;
+    }
+    .img-chat-azul {
+        margin-right: 240px;
+        height: 51px;
+        width: 100%;
+        background:url(../Content/img/img-chat-azul.svg) center;
+        background-size: 100% 100%;
+    }
+    .platicagris {
+        margin-bottom:  26px;
+        height: 51px;
+        width: 180px;
+        float: right;
+    }
+    .platicaazul {
+        margin-bottom:  26px;
+        height: 51px;
+        width: 180px;
+        float: left;
+    }
+
+
+    /*ANCLA II*/
+    .anclaII_container {
+        padding-top: 67px;
+        padding-bottom: 67px;
+        width: 100%;
+        background-color: #f8f9fa;
+    }
+    .anclaII_icon1 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        height: 115px;
+        width: 100%;
+    }
+    .anclaII_icon2 {
+        margin-top: 0px;
+        margin-bottom: 45px;
+        height: 151px;
+        width: 100%;
+    }
+    .anclaII_icon3 {
+        margin-top: 0px;
+        margin-bottom: 45px;
+        height: 130px;
+        width: 100%;
+    }
+    .anclaII_icon4 {
+        margin-top: 0px;
+        margin-bottom: 45px;
+        height: 151px;
+        width: 100%;
+    }
+    .anclaII_icon5 {
+        margin-top: 0px;
+        margin-bottom: 45px;
+        height: 130px;
+        width: 100%;
+    }
+
+    .anclaII_icon4 {
+        margin-bottom: 0px;
+    }
+
+    .anclaII_icon2, .anclaII_icon4 {
+        height: 90px;
+    }
+    .anclaII_title1 {
+        color: #F10C5D;
+        font-family: GloberRegular;
+        font-size: 25px;
+        font-weight: 300;
+        line-height: 25px;
+        text-align: center;
+    }
+    .anclaII_title2 {
+        color: #F10C5D;
+        font-family: Glober;
+        font-size: 25px;
+        font-weight: 300;
+        line-height: 20px;
+    }
+    .anclaII_title3 {
+        padding-top: 11px;
+        color: #F10D5E;
+        font-family: GloberRegular;
+        font-size: 40px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .anclaII_title4 {
+        margin-top: -20px;
+        color: #F10D5E;
+        font-family: GloberRegular;
+        font-size: 15px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .anclaII_title5 {
+        margin-top: -50px;
+        color: #F10D5E;
+        font-family: GloberRegular;
+        font-size: 48px;
+        line-height: 72px;
+        text-align: center;
+    }
+    .anclaII_title6 {
+        margin-top: -30px;
+        color: #F10D5E;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .anclaII_title7 {
+        margin-top: 0px;
+        color: #F10D5E;
+        font-family: GloberRegular;
+        font-size: 48px;
+        line-height: 72px;
+        text-align: center;
+    }
+    .anclaII_title8{
+        margin-top: -30px;
+        color: #F10D5E;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .anclaII_title9 {
+        padding-top: 20px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title10 {
+        padding-top: 10px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title11 {
+        padding-top: 18px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title12 {
+        margin-top: 0px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title13 {
+        padding-top: 28px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title14 {
+        padding-top: 28px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title15 {
+        margin-top: -20px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title16 {
+        padding-top: 28px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .anclaII_title17 {
+        padding-top: 28px;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+        .seccion_logo {
+    height: 70px;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+    .flecha {
+        display: none;
+}
+
+    .flecha2 {
+        transform:          rotate(90deg);
+        -ms-transform:      rotate(90deg);
+        -moz-transform:     rotate(90deg);
+        -webkit-transform:  rotate(90deg);
+        -o-transform:       rotate(90deg);
+
+        width: 100%;
+        height: 40px;
+        display: block;
+    }
+
+    .mockup {
+        width: 100%;
+    }
+
+    .anclaIV_container h1 {
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 30px;
+}
+
+.justify {
+        text-align:center;
+    }
+    .anclaIV_container .anclaI_title2 {
+        margin-top: 10px;
+    }
+
+    /*PARRAFO*/
+    .parrafo_container {
+        padding-top: 30px;
+        padding-bottom: 67px;
+        width: 100%;
+        background-color: #eef2f3;
+    }
+    .parrafo_title1 {
+        margin-left: 0px;
+        margin-right: 0px;
+        opacity: 0.82;
+        color: #105B89;
+        font-family: GloberRegular;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 30px;
+        text-align: center;
+    }
+    .parrafo_logo {
+        height: 80px;
+        width: 100%;
+    }
+
+    /*FOORTER*/
+    .centrar_lSociales {
+        margin: 0px 51px 20px;
+    }
+    .foorter_logosSociales {
+        height: 50px;
+        width: 50px;
+        margin-right: 10px;
+    }
+
+    .logosecurity {
+       margin-top: 10px;
+    width: 70px;
+    margin-left: 22%;
+    }
+
+    /*MODAL FORM*/
+    /*.modal {
+      text-align: center;
+      padding: 0!important;
+    }
+    .modal:before {
+      content: '';
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+      margin-right: -4px;
+    }
+    .modal-dialog {
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+        width: 90%;
+        height: 100%;
+    }*/
+
+    .Modaltitle1 {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        color: #3B3B3B;
+        font-family: GloberRegular;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 20px;
+        text-align: center;
+    }
+    .spanModal{
+            font-family: Glober;
+    }
+    .Modaltitle2 {
+        color: #5C5F60;
+        font-family: GloberRegular;
+        font-size: 15px;
+        line-height: 15px;
+        text-align: center;
+    }
+    .Modaltitle3 {
+        color: #99A1A4;
+        font-family: GloberRegular;
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .Modaltitle4 {
+        color: #FFFFFF;
+        font-family: GloberRegular;
+        font-size: 14.4px;
+        font-weight: bold;
+        line-height: 22px;
+        text-align: center;
+    }
+    .ModalBtn {
+        margin-top: 5px;
+        height: 40px;
+        border-radius: 4.07px;
+        background: #FF005B;
+    }
+    .ModalInputMargenes {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .ModalInput {
+        margin-bottom: 10px;
+        border: 1px solid #B6BBBD;
+        border-radius: 5px;
+        background-color: #FFFFFF;
+    }
+    .ModalInputRec {
+        border: 1px solid #D0021B;
+        border-radius: 5px;
+        background-color: #FFFFFF;
+    }
+}
+
+.fold_cuarto .div_button_all {
+    padding: 0;
+    margin-top: 20px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: row; */
+    /* flex-wrap:wrap; */
+    /* justify-content:flex-start; */
+}

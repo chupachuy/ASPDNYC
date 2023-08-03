@@ -1,0 +1,453 @@
+﻿@model DNyC.Areas.Sitio.Models.cHome
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es" xml:lang="es">
+<head>
+    <link rel="icon" type="image/png" ref="~/Content/img/favicon16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" ref="~/Content/img/favicon32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" ref="~/Content/img/favicon64x64.png" sizes="48x48">
+
+    <title>Duraznos, Nectarinas y Ciruelas de California – ¡Tú sabes! Son sanos y deliciosos. Son Duraznos, Nectarinas y Ciruelas de California</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <meta charset="utf-8">
+    <meta name="author" content="SaltoDigital" />
+    <meta name="description" content="Son Duraznos, Nectarinas y Ciruelas de California Bienvenidos a nuestra temporada 2022 Ha llegado la temporada de los 🍑 Duraznos, Nectarinas y Ciruelas de California. Muy pronto compartiremos contigo nuestras recetas. Descubre nuestras recetas, descubrirás su versatilidad y facilidad. Cuando tú les das en casa un Durazno, Nectarina o Ciruela de California, les entregas seguridad, confianza y…">
+    <meta name="keywords" content="Duraznos, Nectarinas y Ciruelas de California">
+    <meta name="copyright" content="&copy; 2020 SaltoDigital" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Duraznos, Nectarinas y Ciruelas de California" />
+    <meta property="og:description" content="¡Tú sabes! Son sanos y deliciosos. Son Duraznos, Nectarinas y Ciruelas de California">
+    <meta property="og:url" content="https://duraznosnectarinasyciruelasdecalifornia.com/">
+    <meta property="og:site_name" content="Duraznos, Nectarinas y Ciruelas de California">
+    <meta property="og:image" content="https://duraznosnectarinasyciruelasdecalifornia.com/Content/img/metatag.jpg">
+    <meta property="og:locale" content="es_ES">
+
+    <meta name="twitter:text:title" content="¡Tú sabes!  Son sanos y deliciosos">
+    <meta name="twitter:image" content="https://duraznosnectarinasyciruelasdecalifornia.com/Content/img/metatag.jpg">
+    <meta name="twitter:card" content="summary">
+
+    <link rel="canonical" href="https://duraznosnectarinasyciruelasdecalifornia.com/" />
+
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Last-Modified" content="0">
+    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+
+    @Html.Partial("~/Views/Shared/Scripts/_GoogleTagHeader.cshtml")
+
+    <script>
+        var _Root = '@Url.Action("/")',
+            ventana = 'index';
+    </script>
+
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/BootstrapMin")
+    @Styles.Render("~/Content/HomeLanding")
+
+    @Scripts.Render("~/js/General")
+    @Scripts.Render("~/js/HomeLanding")
+
+</head>
+<body class="body">
+    @Html.Partial("~/Views/Shared/Scripts/_GoogleTagBody.cshtml")
+
+    @*NAVBAR*@
+    <nav class="black navbar navbar-default navbar-fixed-top backColorTransparent">
+        <div class="container-fluid">
+            <div class="navbar-header pull-left hidden-xs">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a class="a_home" href="#">
+                            <!-- <img class="logo" src="/Content/img/logo-DNyCC-slogan.png" alt="logo-DNyCC" width="234" height="68"> -->
+                            <img class="logo" src="/Content/img/logo100x100.png" alt="logo-DNyCC" width="70" height="70">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <button type="button" class="navbar-toggle hidden-lg hidden-md hidden-sm" data-toggle="collapse" data-target="#myNavbar" onclick="btn_AbrirMenuMovil();">
+                <span class="material-icons">
+                    menu
+                </span>
+            </button>
+            <div id="myNavbar" class="navbar-header pull-right collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a class="a_recetas" href="#">Descargar Recetario</a>
+                    </li>
+                    <li>
+                        <a class="a_contactanos hidden-xs" href="#"><img class="img_mail" src="/Content/img/icn-mail.svg" alt="DNyCC-mail" width="30" height="30"></a>
+                    </li>
+                    <li>
+                        <a class="a_facebook hidden-xs" href="#" target="_blank"><img class="img_facebook" src="/Content/img/icn-facebook.svg" alt="DNyCC-facebook" width="30" height="30"></a>
+                    </li>
+                    <li>
+                        <a class="a_instagram hidden-xs" href="#" target="_blank"><img class="img_instagram" src="/Content/img/icn-instagram.svg" alt="DNyCC-instagram" width="30" height="30"></a>
+                    </li>
+                    <li>
+                        <a class="a_twitter hidden-xs" href="#" target="_blank"><img class="img_twitter" src="/Content/img/icn-twitter.svg" alt="DNyCC-twitter" width="30" height="30"></a>
+                    </li>
+                    <li>
+                        <a class="a_contactanos hidden-lg hidden-md hidden-sm" href="#">
+                            <img class="img_mail" src="/Content/img/icn-mail.svg" alt="DNyCC-mail" width="30" height="30">
+                            &nbsp;&nbsp;Contactanos
+                        </a>
+                    </li>
+                    <li>
+                        <a class="a_facebook hidden-lg hidden-md hidden-sm" href="#" target="_blank">
+                            <img class="img_facebook" src="/Content/img/icn-facebook.svg" alt="DNyCC-facebook" width="30" height="30">
+                            &nbsp;&nbsp;Facebook
+                        </a>
+                    </li>
+                    <li>
+                        <a class="a_instagram hidden-lg hidden-md hidden-sm" href="#" target="_blank">
+                            <img class="img_instagram" src="/Content/img/icn-instagram.svg" alt="DNyCC-instagram" width="30" height="30">
+                            &nbsp;&nbsp;Instagram
+                        </a>
+                    </li>
+                    <li>
+                        <a class="a_twitter hidden-lg hidden-md hidden-sm" href="#" target="_blank">
+                            <img class="img_twitter" src="/Content/img/icn-twitter.svg" alt="DNyCC-twitter" width="30" height="30">
+                            &nbsp;&nbsp;Twitter
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid fold_primero">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding_0px hidden-lg hidden-md hidden-sm">
+                <div class="div_logo">
+                    <div class="div_imglogo">
+                        <img class="" src="/Content/img/logo100x100.png" alt="logo-New-DNyCC" width="120" height="120">
+                    </div>
+                    <div class="div_slogan">
+                        <p>
+                            Duraznos, Nectarinas y<br />
+                            Ciruelas de California.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding_0px">
+                <h1>
+                    <b>¡Tú sabes!</b><br />
+                    Son sanos y deliciosos.
+                </h1>
+                <h2>
+                    Son Duraznos, Nectarinas y<br />
+                    Ciruelas de California.
+                </h2>
+                <img class="" src="/Content/img/img-frutas-fold.png" alt="Duraznos-Nectarinas-y-Ciruelas-de-California" width="850" height="505">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid div_barra padding_0px">
+    </div>
+
+
+    <div class="container-fluid fold_segundo">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h2>
+                    Bienvenidos a nuestra temporada 2023 🍑
+                </h2>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid fold_tercero">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding_0px text-center">
+                <img class="" src="/Content/img/IMG_PPN-family_2_betaRGB.png" alt="post-instagram">
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding_0px">
+                <p class="hidden-xs">
+                    <b>Ha llegado la temporada</b> de los<br />
+                    Duraznos, Nectarinas y Ciruelas de California.
+                </p>
+                <p class="hidden-lg hidden-md hidden-sm">
+                    <b>Ha llegado la temporada</b> de los
+                    Duraznos, Nectarinas y Ciruelas
+                    de California.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid fold_cuarto">
+        <div class="container">
+            <div class="row col-lg-12 col-md-12 col-sm-12 col-xs-12 padding_0px">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12" style="padding: 0; margin-top: 20px; display: flex; align-items: center; justify-content: center;">
+                    <!-- <img id="img_videoKaruy" class="" src="~/Content/img/VideoKaruyZazueta.png" alt="post-VideoKaruZazueta"> -->
+                    <!-- <video id="video_videoKaruy" class="embed-responsive" widht="100%" controls style="display: none;">
+                        <source src="~/Content/media/Video Presentación Karuy.mp4" type="video/mp4">
+                        <source src="~/Content/media/Video Presentación Karuy.mov" type="video/mov">
+                    </video>-->
+                    <div class="info-chefs" style="font-size: 1rem; text-align:left;">
+                        <p>Descarga nuestros recetarios por la Chef <strong>María José Gastelum</strong>, la Chef <strong>Yudit Camacho</strong>, la Chef <strong>Luz Colsa</strong>, la chef <strong>Giovanna Ronci</strong>, la Chef <strong>Andrea Berrondo</strong> y la nutriologa <strong>Pamela Berrondo</strong></p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 padding_0px">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 div_button_all" style="margin-top: 30px; display: flex; justify-content: center; align-items: center; text-align: center;">
+                        <!--<p class="hidden-xs">
+                            Descarga nuestros recetarios por la <br />
+                            <b>Chef Helena Hernández </b>,<br />
+                            la <b>Chef Karuy Zazueta</b><br />
+                            y la <b>María José Gastelum</b>
+                        </p>
+                        <p class="hidden-lg hidden-md hidden-sm">
+                            Descarga nuestros recetarios por la <b> Chef Helena Hernández </b> , la <b>Chef Karuy Zazueta</b> y la <b>María José Gastelum</b>
+                        </p>-->
+                        <button type="button" class="btn btn_principal btn_principal_Karuy" onclick="descargar_receta();">
+                            Descargar recetario
+                            <span class="material-icons">get_app</span>
+                        </button>
+                    </div>
+                    <!-- <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 div_button">
+                        <button type="button" class="btn btn_principal btn_principal_Gastelum" onclick="descargar_receta();">
+                            Chef Helena Hdz.
+                            <span class="material-icons">get_app</span>
+                        </button>
+                        <button type="button" class="btn btn_principal btn_principal_Karuy" onclick="descargar_receta();">
+                            Chef Karuy Zazueta
+                            <span class="material-icons">get_app</span>
+                        </button>
+                        <button type="button" class="btn btn_principal btn_principal_Gastelum" onclick="descargar_receta();">
+                            Chef María José Gastelum
+                            <span class="material-icons">get_app</span>
+                        </button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid fold_quinto">
+        <div class="row col-lg-12 col-md-12 col-sm-12 col-xs-12 padding_0px">
+            <img class="" src="/Content/img/img-frutas-seguridad-confianza-bienestar.png" alt="frutas-seguridad-confianza-bienestar" width="779" height="407">
+
+            <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 padding_0px">
+                <p>
+                    Cuando tú les das en casa un Durazno, Nectarina o Ciruela de California, <b>les entregas seguridad, confianza y bienestar.</b>
+                    <br />
+                    <br />
+                    Es justo ahí cuando se da esa conexión llena de amor por la que haces todo. Lo que tienen en las manos es tu amor incondicional.
+                </p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 padding_0px">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid fold_sexto">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 padding_0px hidden-lg hidden-md hidden-xs">
+                <p>
+                    Al comerlo y descubrir su sabor ellos disfrutarán lo exquisito de la fruta y tú sabras que en realidad se están alimentando con oportunidades para un mejor día.
+                    <br />
+                    <br />
+                    <b>Su aroma característico dejará en ellos una sensación de tranquilidad que les permitirá tomar mejores decisiones a lo largo del día.</b>
+                </p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 padding_0px">
+                <img class="" src="/Content/img/img-caja-frutas.png" alt="caja-frutas" width="721" height="721">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 padding_0px hidden-sm">
+                <p>
+                    Al comerlo y descubrir su sabor ellos disfrutarán lo exquisito de la fruta y tú sabras que en realidad se están alimentando con oportunidades para un mejor día.
+                    <br />
+                    <br />
+                    <b>Su aroma característico dejará en ellos una sensación de tranquilidad que les permitirá tomar mejores decisiones a lo largo del día.</b>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid fold_septimo">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding_0px">
+                <h2 class="hidden-xs">
+                    Duraznos, Nectarinas y Ciruelas de California<br />
+                    para una vida sana y activa.
+                </h2>
+                <h2 class="hidden-lg hidden-md hidden-sm">
+                    Duraznos, Nectarinas y Ciruelas de California
+                    para una vida sana y activa.
+                </h2>
+                <h3>Conoce todas las opciones que puedes preparar <a class="a_recetas" href="#">aquí.</a></h3>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding_0px div_opciones">
+                <div class="div_opcion">
+                    <img class="" src="/Content/img/icn-desayunos.png" alt="desayunos" width="100" height="100">
+                    <p>Desayunos</p>
+                </div>
+                <div class="div_opcion">
+                    <img class="" src="/Content/img/icn-ensaladas.png" alt="ensaladas" width="100" height="100">
+                    <p>Ensaladas</p>
+                </div>
+                <div class="div_opcion">
+                    <img class="" src="/Content/img/icn-entradas.png" alt="entradas" width="100" height="100">
+                    <p>Entradas</p>
+                </div>
+                <div class="div_opcion">
+                    <img class="" src="/Content/img/icn-plato-fuerte.png" alt="plato-fuerte" width="100" height="100">
+                    <p>Plato fuerte</p>
+                </div>
+                <div class="div_opcion">
+                    <img class="" src="/Content/img/icn-bebidas.png" alt="bebidas" width="100" height="100">
+                    <p>Bebidas</p>
+                </div>
+                <div class="div_opcion">
+                    <img class="" src="/Content/img/icn-snacks.png" alt="snacks" width="100" height="100">
+                    <p>Snacks</p>
+                </div>
+                <div class="div_opcion">
+                    <img class="" src="/Content/img/icn-postres.png" alt="postres" width="100" height="100">
+                    <p>Postres</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid fold_octavo">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 padding_0px div_fondo">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 padding_0px">
+                <p class="hidden-xs">
+                    <b>
+                        Conoce los beneficios<br />
+                        nutricionales
+                    </b> nutricionales de<br />
+                    los Carozos de California.
+                </p>
+                <p class="hidden-lg hidden-md hidden-sm">
+                    <b>
+                        Conoce los beneficios
+                        nutricionales
+                    </b> nutricionales de
+                    los Carozos de California.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid fold_noveno">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 padding_0px div_fondo hidden-lg hidden-md">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 padding_0px">
+                <p class="hidden-xs">
+                    <b>
+                        ¡Tú sabes!<br />
+                        Son sanos y deliciosos.
+                    </b>
+                    <br />
+                    <br />
+                    Son Duraznos, Nectarinas y<br />
+                    Ciruelas de California.
+                </p>
+                <p class="hidden-lg hidden-md hidden-sm">
+                    <b>
+                        ¡Tú sabes!<br />
+                        Son sanos y deliciosos.
+                    </b>
+                    <br />
+                    <br />
+                    Son Duraznos, Nectarinas y
+                    Ciruelas de California.
+                </p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 padding_0px div_fondo hidden-sm hidden-xs">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid fold_decimo">
+        <div class="row col-lg-12 col-md-12 col-sm-12 col-xs-12 padding_0px">
+            <img class="durazno" src="/Content/img/img-durazno.png" alt="durazno" width="824" height="594">
+
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 padding_0px">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding_0px">
+                    <div class="div_logo">
+                        <div class="div_imglogo">
+                            <img class="" src="/Content/img/logo100x100.png" alt="logo-New-DNyCC" width="120" height="120">
+                        </div>
+                        <div class="div_slogan">
+                            <p>
+                                Duraznos, Nectarinas y<br />
+                                Ciruelas de California.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding_0px">
+                    <h2 class="hidden-xs">
+                        Encuéntralos en el súper, en la<br />
+                        frutería o en el mercado.
+                    </h2>
+                    <h2 class="hidden-lg hidden-md hidden-sm">
+                        Encuéntralos en el súper, en la<br />
+                        frutería o en el mercado.
+                    </h2>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding_0px">
+                    <p class="hidden-xs">
+                        Esta temporada, busca las recetas sanas y saludables
+                        <b>cada semana en Instagram e IGTV.</b>
+                    </p>
+                    <p class="hidden-lg hidden-md hidden-sm">
+                        Esta temporada, busca las recetas sanas y saludables
+                        <b>cada semana en Instagram e IGTV.</b>
+                    </p>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding_0px">
+                    <a class="a_instagram" href="#" target="_blank">
+                        <img class="IGTV" src="/Content/img/icn-IGTV-DNyC.png" alt="IGTV-DNyC" width="95" height="89">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 padding_0px">
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid fold_powered_by">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h2>
+                    © 2020 Powered by saltodigital
+                </h2>
+            </div>
+        </div>
+    </div>
+
+
+
+    @Html.Partial("~/Views/PopUp/_Generales.cshtml")
+
+    @Html.Partial("~/Views/Shared/Scripts/_HubSpot.cshtml")
+
+    @Html.Partial("_Hidden_Encripta", Model.Encriptacion)
+</body>
+</html>

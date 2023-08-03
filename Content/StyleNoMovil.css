@@ -1,0 +1,64 @@
+﻿/*Movil_Nodisponible*/
+.mov_nodisponible {
+    position: absolute;
+    top: 0;
+    z-index: 100000;
+}
+
+    .mov_nodisponible .banner {
+        background: url(../Content/img/img-no-movil.svg) center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        z-index: 1;
+    }
+
+    .mov_nodisponible .fold_primero {
+        width: 100%;
+        height: 325px;
+        /* height: 100vh; */
+    }
+
+    .mov_nodisponible .logo_agentetop {
+        height: 17.41px;
+        width: 92px;
+        margin-top: 14px;
+    }
+
+    .mov_nodisponible h1 {
+        color: #665687;
+        font-family: Montserrat;
+        font-size: 1.5em;
+        font-weight: 600;
+        line-height: 1.2083em;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 0 14%;
+    }
+
+    .mov_nodisponible p {
+        color: #4E5156;
+        font-family: Montserrat;
+        font-size: 1.125em;
+        line-height: 1.2222em;
+        text-align: center;
+        margin-bottom: 60px;
+        padding: 0 14%;
+    }
+
+    .mov_nodisponible button {
+        height: 60px;
+        width: 240px;
+        border-radius: 5px;
+        background-color: #00C4E2;
+        color: #FFFFFF;
+        font-family: Montserrat;
+        font-size: 1.5em;
+        font-weight: 600;
+        line-height: 1.2083em;
+        text-align: center;
+        margin-bottom: 30px;
+        float: none;
+        display: inline !important;
+    }

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icn-mail</title>
+    <g id="Sitio-completo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="website-DNyC" transform="translate(-1139.000000, -35.000000)">
+            <g id="icn-mail" transform="translate(1139.000000, 35.000000)">
+                <circle id="Oval" fill="#C31B35" cx="15" cy="15" r="15"></circle>
+                <path d="M21.012,20.712 C21.42,20.712 21.768,20.562 22.056,20.262 C22.344,19.962 22.488,19.608 22.488,19.2 L22.488,19.2 L22.488,10.2 C22.488,9.792 22.344,9.438 22.056,9.138 C21.768,8.838 21.42,8.688 21.012,8.688 L21.012,8.688 L8.988,8.688 C8.58,8.688 8.232,8.838 7.944,9.138 C7.656,9.438 7.512,9.792 7.512,10.2 L7.512,10.2 L7.512,19.2 C7.512,19.608 7.656,19.962 7.944,20.262 C8.232,20.562 8.58,20.712 8.988,20.712 L8.988,20.712 L21.012,20.712 Z M15,15.438 L8.988,11.712 L8.988,10.2 L15,13.962 L21.012,10.2 L21.012,11.712 L15,15.438 Z" id="" fill="#F2F2F2" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,1 @@
+Error spDatos envio:<JSONDatos><ID_COTI>564052</ID_COTI><COD_TIPO_RESUMEN>M</COD_TIPO_RESUMEN><MODIFICA_DEDUCIBLE></MODIFICA_DEDUCIBLE><MODIFICA_SUMA_ASEGURADA></MODIFICA_SUMA_ASEGURADA><ES_INTERNACIONAL>NO</ES_INTERNACIONAL></JSONDatos> Error:584The current transaction cannot be committed and cannot support operations that write to the log file. Roll back the transaction. L:199)

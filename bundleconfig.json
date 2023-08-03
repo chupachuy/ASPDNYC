@@ -1,0 +1,44 @@
+[
+  {
+    "outputFileName": "Content/styleSitioHome.min.css",
+    "inputFiles": [
+      "Content/styleSitioHome.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/StyleNoMovil.min.css",
+    "inputFiles": [
+      "Content/StyleNoMovil.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/site.min.css",
+    "inputFiles": [
+      "Content/site.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/style.min.css",
+    "inputFiles": [
+      "Content/style.css"
+    ]
+  },
+  {
+    "outputFileName": "Areas/Sitio/Scripts/contacto.min.js",
+    "inputFiles": [
+      "Areas/Sitio/Scripts/contacto.js"
+    ]
+  },
+  {
+    "outputFileName": "Areas/Sitio/Scripts/descargar.min.js",
+    "inputFiles": [
+      "Areas/Sitio/Scripts/descargar.js"
+    ]
+  },
+  {
+    "outputFileName": "Areas/Sitio/Scripts/index.min.js",
+    "inputFiles": [
+      "Areas/Sitio/Scripts/index.js"
+    ]
+  }
+]
